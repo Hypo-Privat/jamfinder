@@ -1,0 +1,99 @@
+/* http://hyperkontext.at/documents/css-float-bilder-und-text-jeweils-in-einer-flucht-ausrichten-beispiel.htm#beispiel-1 */
+body {font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;}
+hr {clear:both;}
+
+/*--------gilt für alle Beispiele-------*/
+img {
+ border: 5px double #ddd;
+ background-color: #fff;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -khtml-border-radius: 5px;
+ border-radius: 5px;
+ width: 80px;
+ overflow:hidden;
+}
+#c1, #c2, #c3 {max-width:36em;}
+
+/*----------Beispiel-1-----------------*/
+div#c1 p {
+ clear:both;
+ padding-left: 100px;
+ margin-bottom: 3em;
+}
+div#c1 p img {
+ float:left;
+ padding: 0;
+ margin: 0 0 3em -100px;
+}
+
+/*-----------Beispiel-2--------------*/
+dl#c2 {
+ border-left: 30px solid #ddd;
+ padding-left: 40px;
+ margin-left: 30px;
+}
+dl#c2 dt {
+ font: bold 100%/1 Georgia, "Times New Roman", Times, serif;
+ letter-spacing: .05em;
+ text-align:center;
+ color: #666;
+ text-shadow: #fff 1px -1px .05em;
+ background-color: #ddd;
+ float:left;
+ clear: both;
+ padding: 10px 5px 10px;
+ margin-left: -100px;
+ _margin-left: -50px; /* Berichtigung für IE < 7 */
+ min-width:80px;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -khtml-border-radius: 10px;
+ border-radius: 10px;
+}
+dl#c2 dd {
+ clear:both;
+ margin: 1em 0 2em;
+}
+dl#c2 h2 {
+ font: bold 75%/1.2 Georgia, "Times New Roman", Times, serif; 
+ padding: .5em .5em 0 0;
+ margin: 0;
+ clear:both;
+}
+dl#c2 h2:first-letter {
+ font-size: 150%; 
+ font-weight: bold;
+}
+
+dl#c2 img {
+ clear: both;
+ float: left;
+ padding: 0;
+ margin: 10px 0 2em -100px;
+}
+
+/*-------------Beispiel-3--------------*/
+div#c3 {
+ border-left: 30px solid #ddd;
+ padding: 0 0 0 40px;
+ margin: 0 0 0 30px;
+}
+
+div#c3 h2 {
+ font: bold 150%/1.2 Georgia, "Times New Roman", Times, serif; 
+ clear:both;
+ padding: .5em .5em 0 0;
+ margin: 0 0 0 -30px;
+}
+div#c3 h2:first-letter {
+ font-size: 150%; 
+ font-weight: bold;
+}
+
+div#c3 img {
+ clear: both;
+ float: left;
+ padding: 0;
+ margin: 0 0 2em -100px;
+}

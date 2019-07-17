@@ -1,0 +1,251 @@
+{
+  "general": {
+    "userAgentRegexes": [],
+    "replaceStrings": [],
+    "deviceRegKey": "g3dwxwnvtthn8ufehwugf16b3r",
+    "publicKey": "mzazw",
+    "appName": "Jamfinder",
+    "initialUrl": "http://jamfinder.info",
+    "useWKWebView": true,
+    "userAgentAdd": "gonative",
+    "iosBundleId": "io.gonative.ios.mzazw",
+    "androidPackageName": "io.gonative.android.mzazw"
+  },
+  "navigation": {
+    "androidPullToRefresh": false,
+    "iosPullToRefresh": false,
+    "tabNavigation": {
+      "tabSelectionConfig": [
+        {
+          "id": "1",
+          "regex": ""
+        }
+      ],
+      "tabMenus": [
+        {
+          "id": "1",
+          "items": [
+            {
+              "subLinks": []
+            }
+          ]
+        }
+      ]
+    },
+    "sidebarNavigation": {
+      "menuSelectionConfig": {
+        "redirectLocations": [
+          {
+            "regex": null,
+            "menuName": "default",
+            "loggedIn": false
+          },
+          {
+            "regex": ".*",
+            "menuName": "default",
+            "loggedIn": true
+          }
+        ],
+        "testURL": null
+      },
+      "menus": [
+        {
+          "name": "default",
+          "active": false,
+          "items": [
+            {
+              "label": "Sample Home",
+              "url": "http://jamfinder.info/home",
+              "icon": "fa-users",
+              "subLinks": []
+            },
+            {
+              "label": "Sample About",
+              "url": "http://jamfinder.info/about",
+              "subLinks": []
+            }
+          ]
+        },
+        {
+          "name": "loggedIn",
+          "active": false,
+          "items": [
+            {
+              "label": "Sample Home",
+              "url": "http://jamfinder.info/home",
+              "subLinks": []
+            },
+            {
+              "label": "Sample About",
+              "url": "http://jamfinder.info/about",
+              "subLinks": []
+            }
+          ]
+        }
+      ]
+    },
+    "regexInternalExternal": {
+      "rules": [
+        {
+          "regex": "mailto:.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/login.php.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/dialog.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/v1\\.0/.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/oauth.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/sharer\\.php.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*plus\\.google\\.com/share.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*twitter\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*instagram\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/.*",
+          "internal": true
+        },
+        {
+          "regex": ".*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*jamfinder\\.info/?.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*info/?.*",
+          "internal": true
+        }
+      ]
+    },
+    "navigationTitles": {
+      "titles": [
+        {}
+      ]
+    },
+    "redirects": [],
+    "ignorePageFinishedRegexes": [],
+    "toolbarNavigation": null,
+    "iosShowRefreshButton": false,
+    "androidShowRefreshButton": false,
+    "navigationLevels": {
+      "levels": [
+        {}
+      ],
+      "active": false
+    }
+  },
+  "styling": {
+    "transitionInteractiveDelayMax": 0.2,
+    "menuAnimationDuration": 0.15,
+    "iosLaunchImages": {},
+    "androidShowSplash": true,
+    "disableAnimations": false,
+    "hideWebviewAlpha": 0.5,
+    "androidLaunchImages": {},
+    "androidTabBarTextColor": "#000000",
+    "androidTabBarIndicatorColor": "#000000",
+    "androidTabBarBackgroundColor": "#bdbdbd",
+    "androidStatusBarBackgroundColor": "#9f9f9f",
+    "navigationTitleImage": false,
+    "iosSidebarTextColor": "#333333",
+    "iosTintColor": "#0091fe",
+    "iosTitleColor": "#333333",
+    "androidSidebarSeparatorColor": "#585858",
+    "androidAccentColor": "#009688",
+    "androidActionBarForegroundColor": "#000000",
+    "androidActionBarBackgroundColor": "#bdbdbd",
+    "androidSidebarForegroundColor": "#777777",
+    "androidSidebarBackgroundColor": "#FFFFFF",
+    "androidTheme": "light",
+    "iosTheme": "light",
+    "androidHideTitleInActionBar": false,
+    "iosSidebarFont": "AppleSDGothicNeo-Thin",
+    "showNavigationBar": false,
+    "showActionBar": false
+  },
+  "forms": {
+    "interceptForms": {
+      "forms": []
+    },
+    "search": {},
+    "loginConfig": {
+      "formInputs": [
+        {
+          "label": "E-Mail",
+          "type": "email",
+          "selector": "input[name=l_email][value=yourEmail\\@event\\.com][type=email][id=l_email]",
+          "choices": [],
+          "required": false
+        },
+        {
+          "label": "Password",
+          "type": "password",
+          "selector": "input[name=l_pwd][value=password][type=password][id=l_pwd]",
+          "choices": [],
+          "required": false
+        }
+      ],
+      "loginIsFirstPage": false,
+      "formSelector": "form[id=loginform]",
+      "active": false,
+      "interceptUrl": "http://jamfinder.info/#login",
+      "errorUrl": "http://jamfinder.info/#login",
+      "passwordResetUrl": "http://jamfinder.info/#sendpwd",
+      "isAjax": false
+    },
+    "signupConfig": {
+      "formInputs": [],
+      "formSelector": null,
+      "active": false
+    }
+  },
+  "permissions": {
+    "usesGeolocation": true
+  },
+  "publishing": {},
+  "performance": {
+    "webviewPools": [
+      {
+        "urls": [
+          {
+            "url": "http://jamfinder.info",
+            "disown": "reload"
+          }
+        ]
+      }
+    ]
+  },
+  "services": {
+    "push": {
+      "active": true
+    },
+    "analytics": {
+      "idsite_test": 10561,
+      "idsite_prod": 10560,
+      "active": true
+    }
+  }
+}

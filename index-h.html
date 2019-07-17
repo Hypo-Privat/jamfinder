@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JamFinder show you what's going on at your home base !</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="reply-to" content="info@jamfinder.info" />
+
+<meta name="author" content="Gert Dorn">
+<meta name="description"
+	content="Welcome to Jamfinder ! We provide you daily what's going on where you stay " />
+<meta name="keywords"
+	content="Jamsession, session, Openmic,Karaoke, Music,Band,Musiker,treff,Rock,Blues,Events,Party,Konzert, Musicans, Poetry Slam, Slam ,Dichterwettstreit ,Dichterschlacht)" />
+<meta name="robots" content="index follow" />
+<meta name="revisit-after" content="14 days">
+<meta name="audience" content="all">
+<meta name="siteinfo" content="http://www.jamfinder.info/robots.txt">
+<meta name="expires" content="0">
+<meta name="copyright" content="Copyright&copy; 2014-2030" />
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<!-- here  -->
+<link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.0/mapsjs-ui.css?dp-version=1533195059" />
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-clustering.js"></script>
+	
+	
+<!-- javascript -->	
+<script src="js/jquery/jquery-1.9.0.js"></script>
+<script src="js/jquery/jquery-migrate-1.4.1.min.js"></script>
+<link rel="stylesheet" href="css/jquery/jquery.mobile-1.4.5.css" />
+<script src="js/jquery/jquery.mobile-1.4.5.js"></script>
+<script src="js/jquery/jquery.ui.map.full.min.js"></script>
+
+
+<!-- here styles -->
+
+<style type="text/css">
+.bubble {
+    font-size: 8px;
+    line-height: 10px;
+    color: white;
+}
+.bubble-image {
+    width: 300px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+.bubble-logo {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 4px;
+}
+.bubble-footer {
+    display: table;
+}
+.bubble-desc {
+    display: table-cell;
+    vertical-align: middle;
+}
+.bubble a {
+    text-decoration: none;
+    color: white !important;
+}
+.bubble a:hover {
+    text-decoration: underline;
+}
+
+.bubble hr {
+    margin: 5px 0px;
+}
+</style>
+
+</head>
+<body>
+	<!-- event-map Seite -->
+	<div data-role="page" id="map">
+
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+		
+		<div id="map-container"	style="width: calc(100% + 1000px); height: 800px; background: grey">
+		<input id="pac-input" type="text" placeholder="Search a location">
+		</div>
+		
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer -->
+		<script src="js/map-h.js"></script>
+		<script src="js/menue.js"></script>
+	</div>
+</body>
+</html>

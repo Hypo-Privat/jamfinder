@@ -1,0 +1,26 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>Simple Map Style</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- jQuery reference. Used to make parsing the GeoJSON file easier. -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <!-- Bing Map Control references -->
+    <script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
+
+    <!-- Our Bing Maps JavaScript Code -->
+    <script src="js/SimpleMap.js"></script>
+
+    <style type="text/css">
+        /* Bug fix for mouse events on Polylines and Polygons in IE11 */
+        .MicrosoftMapDrawing, .MapPushpinBase {
+            pointer-events: auto !important;
+        }
+    </style>
+</head>
+<body onload="GetMap();">
+    <div id='myMap' style="position:relative;width:800px;height:600px;"></div>
+</body>
+</html>

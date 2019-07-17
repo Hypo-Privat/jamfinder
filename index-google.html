@@ -1,0 +1,1624 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="msvalidate.01" content="2CFCBF5F4286231013BE25E0C822414D" />
+
+<title>JamFinder show you what's going on at your home base !</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="reply-to" content="info@jamfinder.info" />
+
+<meta name="author" content="Gert Dorn">
+<meta name="description"
+	content="Welcome to Jamfinder ! We provide you daily what's going on where you stay " />
+<meta name="keywords"
+	content="Jamsession, session, Openmic,Karaoke, Music,Band,Musiker,treff,Rock,Blues,Events,Party,Konzert, Musicans, Poetry Slam, Slam ,Dichterwettstreit ,Dichterschlacht)" />
+<meta name="robots" content="index follow" />
+<meta name="revisit-after" content="14 days">
+<meta name="audience" content="all">
+<meta name="siteinfo" content="http://www.jamfinder.info/robots.txt">
+<meta name="expires" content="0">
+<meta name="copyright" content="Copyright&copy; 2014-2030" />
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<script src="js/menue.js"></script>
+
+<!-- Einbindung von jQuery Mobile
+		VORSICHT bei Version Wechsel javascript Formular geht dann nicht mehr Symbole und Farben wechseln
+		-->
+<!--loacl abspeichern verringert zuugriffszeit
+		<link rel="stylesheet" 	href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.css" />
+		<script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.js"></script>
+		<script src="js/jquery/jquery.ui.map.full.min.js"></script> -->
+
+<!-- <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script> -->
+
+<!--local abgelegt
+		<script src="js/jquery/jquery-migrate-1.4.1.min.js"></script>
+		<script src="js/jquery/jquery-1.9.0.js"></script>
+
+		<script src="js/jquery/jquery-2.1.3.js"></script>
+		<script src="js/jquery/jquery-2.1.3.min.map"></script>
+		-->
+<!-- Ge�ndert von 1.9.0 -->
+<script src="js/jquery/jquery-1.9.0.js"></script>
+<script src="js/jquery/jquery-migrate-1.4.1.min.js"></script>
+<link rel="stylesheet" href="css/jquery/jquery.mobile-1.4.5.css" />
+<script src="js/jquery/jquery.mobile-1.4.5.js"></script>
+<script src="js/jquery/jquery.ui.map.full.min.js"></script>
+
+<!-- Einstellungen zur Defintion als WebApp -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="apple-touch-icon-precomposed" href="img/icon-ipad.png"
+	sizes="72x72" />
+<link rel="apple-touch-icon-precomposed"
+	href="img/icon-iphone-retina.png" sizes="114x114" />
+<link rel="apple-touch-icon-precomposed" href="img/icon-ipad-retina.png"
+	sizes="144x144" />
+<link rel="apple-touch-icon-precomposed" href="img/icon-iphone.png" />
+
+<!-- Google Fonts laden -->
+<link href='http://fonts.googleapis.com/css?family=Leckerli+One'
+	rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Noticia+Text'
+	rel='stylesheet' type='text/css'>
+
+
+<script
+	src="http://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&sensor=TRUE"></script>
+<script src="https://www.google.com/jsapi"></script>
+
+<!-- MEINE weiteren Stile -->
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/styles-pic.css" />
+
+<!-- Check Browser  http://detectmobilebrowsers.com/
+		<script src="js/detectmobilebrowser.js"></script>-->
+<!-- END Check Browser  -->
+
+</head>
+<body>
+	<?php 	session_start(); 
+		  $date = date('Y/m/d H:i:s');
+		  echo $date; ?>
+	<!-- Google Tag Manager -->
+	<noscript>
+		<iframe src="//www.googletagmanager.com/ns.html?id=GTM-KJL8NG"
+			height="0" width="0" style="display: none; visibility: hidden"></iframe>
+	</noscript>
+	<script>
+		(function(w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start' : new Date().getTime(),
+				event : 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l='
+					+ l
+					: '';
+			j.async = true;
+		
+			j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-KJL8NG');
+	</script>
+	<!-- Google Tag Manager -->
+	<!-- Google Tracking-Code -->
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-59756347-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google TTracking-Code -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Neue Seite event-map
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- event-map Seite -->
+	<div data-role="page" id="map">
+
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+
+
+		<!-- 	<input id="pac-input"  type="text" 	placeholder="Search a location">
+						<div data-role="content" id="map-container"></div>
+						-->
+
+
+		<div id="map-container"></div>
+		<input id="pac-input" type="text" placeholder="Search a location">
+
+		<!-- div content -->
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer -->
+		<!-- /footer <script src="js/map.js"></script> -->
+
+		<script src="js/map.js"></script>
+		<script src="js/menue.js"></script>
+
+	</div>
+	<!-- /page -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Neue Seite events-list
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- events-list Seite -->
+	<div data-role="page" id="list">
+
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content">
+			<!-- Liste der events -->
+			<ul id="eventlist" data-role="listview" data-inset="true"
+				data-filter="true" data-filter-placeholder="Search location...">
+				<!-- Hier werden die JSON Daten hineingeladen -->
+			</ul>
+		</div>
+		<!-- div content -->
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade"
+						class="ui-btn-active">Event List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer <script src="js/list.js"></script>-->
+		<script src="js/list.js"></script>
+	</div>
+	<!-- /page -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Neue Seite event Detail
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- events-list Seite / event Detail -->
+	<div data-role="page" id="event-detail">
+		<div data-role="header" data-add-back-btn="true"
+			data-back-btn-text="back" data-theme="b" data-position="fixed"
+			data-tap-toggle="false">
+			<h1>Event Details</h1>
+		</div>
+
+		<div data-role="content" id="event-content">
+			<!-- Hier wird dynamisch das einzelne events reingeladen -->
+		</div>
+		<!-- div content -->
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade"
+						class="ui-btn-active">Event List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer -->
+		<script src="js/eventdetail.js"></script>
+	</div>
+	<!-- /page -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Neue Seite insert location
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- insert location -->
+	<div data-role="page" id="insertLOC">
+
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content">
+			<div id="EventNewHead"></div>
+
+			<form id="locationform" action="javascript:;"
+				enctype="multipart/form-data" method="get" accept-charset="utf-8">
+				<div id="ActList"></div>
+				<br>
+				<div id="InsertEvent1"></div>
+				<br>
+
+				<div id="LocList"></div>
+				<br>
+				<div class="country"></div>
+				<div id="InsertEvent2"></div>
+				<button type="submit" data-mini="true" data-theme="b"
+					id="submitform">submit event</button>
+			</form>
+
+		</div>
+
+		<!-- div content -->
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer -->
+
+		<!-- selectlisten and large html blocks for reuse -->
+		<script src="js/insLOC.js"></script>
+		<script src="js/meta-data.js"></script>
+
+	</div>
+	<!-- /page -->
+	<!-- ENDE insert location -->
+	<!--
+		########################################################################################
+		########################################################################################
+		Neue Seite insert location Formular erfolgreich abgesendet
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- Formular erfolgreich abgesendet -->
+	<div data-role="page" id="EventNoReg">
+
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content" id="event-saved">
+			<h3 align="center">New event saved</h3>
+			<p align="center">
+				We as an STARTUP, please help us ! <b> ADD Jam Sessions, Karaoke
+					or Events</b> from the area were you live. <br> Tell your friends
+				about <b>JamFinder</b> and invite people to your next concert or
+				meet friends after work. Than we can provide you actual Information
+				what's going on every day. <br> Your feedbak is welcome ! <br>
+				<br> <b><font color="red">Help us to make Jamfinder
+						better <br> and use it with your marketing to get more
+				</font>"walk-in customers".</b>
+			<h3 align="center">
+				<a href="mailto:info@jamfinder.info"
+					class="ui-btn  ui-icon-mail ui-shadow ui-corner-all ui-btn-icon-left ui-btn-b ">Your
+					feedback is welcome !</a>
+			</h3>
+			</p>
+
+		</div>
+		<!-- div content -->
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer -->
+	</div>
+	<!-- /page -->
+	<!--
+		########################################################################################
+		########################################################################################
+		Neue Seite user registrieren
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- user registrieren Seite -->
+	<div data-role="page" id="register">
+
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content" id="user-register">
+			<form id="registerform" action="javascript:;"
+				enctype="multipart/form-data" method="get" accept-charset="utf-8">
+				<label for="u_adr">Address</label> <input data-mini="true"
+					type="text" name="u_adr" id="u_adr" value="Street" /> <label
+					for="u_plz">Postalcode</label> <input data-mini="true" type="text"
+					name="u_plz" id="u_plz" value="Postal Code" /> <label for="u_city">City</label>
+				<input data-mini="true" type="text" name="u_city" id="u_city"
+					value="city" />
+				<div class="regselcountry"></div>
+				<label for="u_email">E-Mail</label> <input data-mini="true"
+					type="email" name="u_email" id="u_email"
+					value="yourEmail@event.com" /> <label for="u_pwd">Password</label>
+				<input data-mini="true" type="password" name="u_pwd" id="u_pwd"
+					value="password" />
+				<button data-mini="true" type="submit" data-theme="b"
+					id="submitform">submit registration</button>
+			</form>
+
+		</div>
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer -->
+		<script src="js/meta-data.js"></script>
+		<script src="js/register.js"></script>
+
+	</div>
+	<!-- /page -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Neue Seite registriert erfolgreich
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- Formular erfolgreich abgesendet -->
+	<div data-role="page" id="register-OK">
+
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content" id="register-saved">
+			<h3 align="center">Welcome as user of JamFinder.</h3>
+			<p align="center">
+				You will receive a e-mail to confirm your password. <br> Now
+				you can create your profile and your events. <br> Add
+				additional data to locations and actor's. <br> <br> <b><font
+					color="red">Help us to make Jamfinder better <br> and
+						use it with your marketing to get more
+				</font>"walk-in customers".</b>
+			<h3 align="center">
+				<a href="mailto:info@jamfinder.info"
+					class="ui-btn  ui-icon-mail ui-shadow ui-corner-all ui-btn-icon-left ui-btn-b ">You
+					have futher questions ?</a>
+			</h3>
+			</p>
+
+		</div>
+		<!-- div content -->
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer -->
+	</div>
+	<!-- /page -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Neue Seite user login
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- login Seite -->
+
+	<div data-role="page" id="login">
+
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content" id="user-login">
+			<!--<form id="loginform"  method="POST"  action="php/tJamContacts.php">-->
+			<form id="loginform" method="POST">
+				<label for="l_email">E-Mail</label> <input data-mini="true"
+					type="email" name="l_email" id="l_email"
+					value="yourEmail@event.com" /> <label for="l_pwd">Password</label>
+				<input data-mini="true" type="password" name="l_pwd" id="l_pwd"
+					value="password" /> <input data-mini="true" type="hidden"
+					name="function" id="function" value="user_login_check" />
+				<button data-mini="true" type="submit" data-theme="b"
+					id="submitform">submit login</button>
+			</form>
+		</div>
+		<div data-role="content">
+			<h3 align="center">
+				<a href="#sendpwd" class="ui-btn ui-mini ui-btn-a"
+					data-transition="fade">Password forgotten ?</a>
+			</h3>
+			<h3 align="center">
+				<a href="#register" class="ui-btn ui-mini ui-btn-a"
+					data-transition="fade">Register on Jamfinder</a>
+			</h3>
+		</div>
+		<!-- div content -->
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer -->
+		<script src="js/login.js"></script>
+	</div>
+	<!-- /page -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Neue Seite user logout
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- logout Seite -->
+
+	<div data-role="page" id="Logout">
+
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<script>
+			//	$('.header').html('	<a href="#startseite" data-role="button" data-icon="home"	data-iconpos="notext">Dieser Text wird nicht angezeigt</a>' + '<h1>Welcome to Jamfinder</h1>' + '<a href="#login" data-role="button" data-icon="check" data-transition="fade" class="ui-btn-active">Login</a>');
+		</script>
+		<script src="js/logout.js"></script>
+
+	</div>
+	<!-- /page -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Neue Seite Passwort
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- login Seite -->
+
+	<div data-role="page" id="sendpwd">
+		<div data-role="header" data-mini="true" data-theme="b"
+			data-position="fixed" data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content" id="user-mail">
+			<form id="sendpwd" action="javascript:;"
+				enctype="multipart/form-data" method="get" accept-charset="utf-8">
+				<label for="p_email">E-Mail</label> <input data-mini="true"
+					type="email" name="p_email" id="p_email"
+					value="yourEmail@event.com" size="15" maxlength="64" />
+				<button data-mini="true" type="submit" data-theme="b"
+					id="submitform">get password</button>
+			</form>
+
+		</div>
+		<div data-role="content">
+			<h3 align="center">
+				<a href="#register" class="ui-btn ui-mini ui-btn-a"
+					data-transition="fade">Register on Jamfinder</a>
+			</h3>
+		</div>
+		<!-- div content -->
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer -->
+		<script src="js/sendpwd.js"></script>
+
+	</div>
+	<!-- /page -->
+	<!--
+		########################################################################################
+		########################################################################################
+		Neue Seite login erfolgreich
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- Formular erfolgreich abgesendet -->
+	<div data-role="page" id="UpdateUser">
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content">
+			<div id="UserDetailHead"></div>
+			<form id="UserUpdate" action="javascript:;"
+				enctype="multipart/form-data" method="get" accept-charset="utf-8">
+				<div id="UserDetail">
+					<!-- hier userdaten ausgeben -->
+				</div>
+				<button data-mini="true" type="submit" data-icon="check"
+					data-theme="b">submit your Profile</button>
+			</form>
+			<!-- div content -->
+		</div>
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer -->
+
+		<script src="js/user.js"></script>
+
+	</div>
+	<!-- /page -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Neue Seite Actor erfolgreich
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- Formular erfolgreich abgesendet -->
+	<div data-role="page" id="Actor">
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<!--Hier werden die Alle Formationen von Actor hineingeladen -->
+		<div data-role="content">
+			<div id="ActorAllHead"></div>
+			<ul id="ActorList"></ul>
+		</div>
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+
+		</div>
+		<!-- /footer -->
+
+		<script src="js/actor.js"></script>
+
+	</div>
+	<!-- /page -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Seite Actor New
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- Formular erfolgreich abgesendet -->
+	<div data-role="page" id="NewActor">
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content">
+			<div id="ActorNewHead"></div>
+			<div id="ActorNewList"></div>
+			<!--	<form action="PHP-UPLOAD/uploadfile_action.php" method="POST" 	enctype="multipart/form-data">   -->
+			<form id="ActorNew" action="javascript:;"
+				enctype="multipart/form-data" method="get" accept-charset="utf-8">
+				<div id="ActorNewForm">
+					<!--  hier update form ausgeben-->
+				</div>
+				<button type="submit" data-mini="true" data-theme="b">
+					Insert New Formation</button>
+			</form>
+		</div>
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+
+		</div>
+		<!-- /footer -->
+		<script src="js/actornew.js"></script>
+	</div>
+	<!-- /page -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Seite Actor Update
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- Formular erfolgreich abgesendet -->
+	<div data-role="page" id="UpdateActor">
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content">
+			<div id="ActorUpdateHead"></div>
+			<form id="ActorUpdate" action="javascript:;"
+				enctype="multipart/form-data" method="get" accept-charset="utf-8">
+				<div id="ActorUpdateForm">
+					<!--  hier update form ausgeben-->
+				</div>
+				<button type="submit" data-mini="true" data-theme="b"
+					id="submitform">submit update</button>
+			</form>
+		</div>
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+
+		</div>
+		<!-- /footer -->
+		<script src="js/actorupdate.js"></script>
+
+	</div>
+	<!-- /page -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Seite Location all
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- Formular erfolgreich abgesendet -->
+	<div data-role="page" id="Location">
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<!--Hier werden die Alle locationseines Users  hineingeladen -->
+		<div data-role="content">
+			<div id="LocationHead"></div>
+			<ul id="LocationList"></ul>
+		</div>
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+
+		</div>
+		<!-- /footer -->
+		<script src="js/location.js"></script>
+
+	</div>
+	<!-- /page -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Seite Location  Update
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- Formular erfolgreich abgesendet -->
+	<div data-role="page" id="UpdateLocation">
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content">
+			<div id="LocationDetailHead"></div>
+			<form id="LocationUpdate" action="javascript:;"
+				enctype="multipart/form-data" method="get" accept-charset="utf-8">
+				<div id="LocationUpdateForm1"></div>
+				<div class="updatecountry"></div>
+				<div id="LocationUpdateForm2"></div>
+				<button data-mini="true" type="submit" data-icon="check"
+					data-theme="b">submit Location update</button>
+			</form>
+		</div>
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer -->
+		<script src="js/locationupdate.js"></script>
+
+	</div>
+	<!-- /page -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Seite Location  NEW
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- Formular erfolgreich abgesendet -->
+	<div data-role="page" id="NewLocation">
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content">
+			<div id="LocationNewHead"></div>
+			<div id="LocationNewList"></div>
+			<br> <b>Location not found, insert New Place ! </b>
+			<form id="LocationNew" action="javascript:;"
+				enctype="multipart/form-data" method="get" accept-charset="utf-8">
+				<label for="l_firma">Company</label> <input data-mini="true"
+					type="text" name="l_firma" id="l_firma"
+					placeholder="Wonderful place" /> <label for="l_kategorie">Type
+					(Bar, Restaurant, ...)</label> <input data-mini="true" type="text"
+					name="l_kategorie" id="l_kategorie" placeholder="Pub" /> <label
+					for="l_location">Name</label> <input data-mini="true" type="text"
+					name="l_location" id="l_location" placeholder="Name of Location" />
+				<label for="l_adr">Address</label> <input data-mini="true"
+					type="text" name="l_adr" id="l_adr" placeholder="Street of event" />
+				<label for="l_plz">Postalcode</label> <input data-mini="true"
+					type="text" name="l_plz" id="l_plz" placeholder="Postal Code" /> <label
+					for="city">City</label> <input data-mini="true" type="text"
+					name="l_city" id="l_city" placeholder="City" />
+				<div class="regselcountry"></div>
+				<label for="l_url">URL</label> <input data-mini="true" type="url"
+					name="l_url" id="l_url" placeholder="http://your.homepage.com" />
+				<label for="l_email">E-Mail</label> <input data-mini="true"
+					type="email" name="l_email" id="l_email"
+					placeholder="your@email.com" /> <label for="l_telefon">Phone</label>
+				<input data-mini="true" type="tel" name="l_telefon" id="l_telefon"
+					placeholder="phone" /> <label for="l_comment">Description</label>
+				<textarea data-mini="true" name="l_comment" id="l_comment" cols="20"
+					rows="5" wrap="virtual">something about your place....</textarea>
+				<button type="submit" data-mini="true" data-theme="b">
+					Insert New Location</button>
+			</form>
+
+		</div>
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+
+		</div>
+		<!-- /footer -->
+		<script src="js/meta-data.js"></script>
+		<script src="js/locationnew.js"></script>
+
+	</div>
+	<!-- /page -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Seite termine all
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- Formular erfolgreich abgesendet -->
+	<div data-role="page" id="Termin">
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content">
+			<div id="TerminAllHead"></div>
+			<ul id="TerminList"></ul>
+		</div>
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer -->
+		<script src="js/termin.js"></script>
+	</div>
+	<!-- /page -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Neue Seite Termin erfolgreich
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- Formular erfolgreich abgesendet -->
+	<div data-role="page" id="UpdateTermin">
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content">
+			<div id="TerminDetailHead"></div>
+			<form id="TerminUpdate" action="javascript:;"
+				enctype="multipart/form-data" method="get" accept-charset="utf-8">
+				<div id="TerminUpdateForm">
+					<!-- hier Form ausgeben -->
+				</div>
+				<button data-mini="true" type="submit" data-icon="check"
+					data-theme="b">submit Event Update</button>
+			</form>
+
+		</div>
+		<!-- div content -->
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer -->
+
+		<script src="js/terminupdate.js"></script>
+
+	</div>
+	<!-- /page -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Seite Actor New
+		########################################################################################
+		########################################################################################
+		-->
+
+	<!-- Formular erfolgreich abgesendet -->
+	<div data-role="page" id="NewTermin">
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content">
+			<div id="TerminNewHead"></div>
+			<form id="TerminNew" action="javascript:;"
+				enctype="multipart/form-data" method="get" accept-charset="utf-8">
+				<div id="LList"></div>
+				<div id="AList"></div>
+				<div id="TerminNewForm"></div>
+				<button type="submit" data-mini="true" data-theme="b"
+					id="submitform">Insert New Event</button>
+			</form>
+
+		</div>
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer -->
+		<script src="js/terminnew.js"></script>
+	</div>
+	<!-- /page -->
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Neue Seite user Impressum
+		########################################################################################
+		########################################################################################
+		-->
+
+	<div data-role="page" id="Impressum">
+
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content" id="Impressum">
+			<H1>Impressum Jamfinder</H1>
+			Neu Gasse 85, 8005 Z�rich Switzerland <br> CEO Gert Dorn <br>
+			Email: gd@jamfinder.info
+			</h3>
+			<h1>Third-party licenses</h1>
+			<p style="text-align: justify;">Several fantastic pieces of free
+				and open-source software have really helped get Jamfinder to where
+				it is today. A few require that we include their license agreements
+				within our product. Consider it done. As we enjoy giving credit
+				where it's due, we included the entire list below. This means you
+				can not only see which software we've been using, but the terms of
+				the licenses too. A big thanks from all of us at Jamfinder to the
+				smart people behind the fantastic programs listed. MyA and JamUP!</p>
+			<h1>PHP</h1>
+			<p style="text-align: justify;">The PHP License is a published by
+				the PHP Group software license that allows free use and modification
+				of the source code. It is by the Open Source Initiative (OSI) [1]
+				and the Free Software Foundation (FSF) [2] recognized as open source
+				or free software license, but not compatible with the GNU General
+				Public License (GPL) since it restricts the use of the word "PHP" in
+				derived software products. http://php.net/license/3_01.txt</p>
+			<h1>MIT License</h1>
+			<p style="text-align: justify;">
+				Permission is hereby granted, free of charge, to any person
+				obtaining a copy of this software and associated documentation files
+				(the "Software"), to deal in the Software without restriction,
+				including without limitation the rights to use, copy, modify, merge,
+				publish, distribute, sublicense, and/or sell copies of the Software,
+				and to permit persons to whom the Software is furnished to do so,
+				subject to the following conditions: The above copyright notice and
+				this permission notice shall be included in all copies or
+				substantial portions of the Software. <br> THE SOFTWARE IS
+				PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+				INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+				FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+				SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+				DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
+				OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+				SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+			</p>
+			<h1>W3C Geolocation API</h1>
+			<p style="text-align: justify;">The W3C Geolocation API is an
+				effort by the World Wide Web Consortium (W3C) to standardize an
+				interface to retrieve the geographical location information for a
+				client-side device.[1] It defines a set of objects, ECMAScript
+				standard compliant, that executing in the client application give
+				the client's device location through the consulting of Location
+				Information Servers, which are transparent for the application
+				programming interface (API). The most common sources of location
+				information are IP address, Wi-Fi and Bluetooth MAC address,
+				radio-frequency identification (RFID), Wi-Fi connection location, or
+				device Global Positioning System (GPS) and GSM/CDMA cell IDs. The
+				location is returned with a given accuracy depending on the best
+				location information source available.</p>
+			<h1>Data Privacy</h1>
+			<p style="text-align: justify;">This app is using Google
+				Analytics, a web analysis service provided by Google, Inc. (Google).
+				Information about the usage of your app are sent by Google to a
+				server in the USA and are saved there. Google is using this
+				information to analyze your usage of the app, generating reports
+				about your app activity for providers and adding additional services
+				about app activity and internet usage. Google may provide this
+				information to third partys where legally allowed or where these
+				third partys are processing information on behalf of Google. Google
+				wont link your IP adress with other data captured by Google.
+				Eventphant minds protection of your data. Through installation of
+				the app, you agree to use the identification number (ID) of your
+				device for analysis purposes. The analysis data collected by
+				Eventphant are being used for further development and improvement of
+				the app. The ID of your device is solely being used for this
+				purpose.</p>
+
+		</div>
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer -->
+
+	</div>
+	<!-- /page -->
+	<!--
+		########################################################################################
+		########################################################################################
+		Neue Seite user AGB
+		########################################################################################
+		########################################################################################
+		-->
+
+	<div data-role="page" id="AGB">
+
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content" id="AGB">
+			<H1>Jamfinder Allgemeine Geschaeftsbedingungen AGB</H1>
+			<h3>
+				Nutzungsbedingungen fuer den Internet Marktplatz
+				Jamfinder(Allgemeine Geschaeftsbedingungen AGB) Stand: 01. Januar
+				2015 <br> Dieses Internetangebot befindet sich im Testbetrieb.
+				Fuer alleEintraege und Funktionen, sowie entstandene Schaeden durch
+				dieNutzung des Systems wird keine Haftung uebernommen. Wir behalten
+				unsvor, alle Eintraege sowie deren Anbieter auf deren Serioesitaet
+				hinzu ueberpruefen. Vorwort <br> <br> §1 - Zugang
+				zurPlattform <br> §2 - Registrierung <br> §3 - Ausschluss
+				vonNutzern <br> §4 - Verpflichtungen von Jamfinder <br> §5
+				-Verpflichtungen der Nutzer <br> §6 - Entgelte <br> §7
+				-Aufrechnung / Zurueckbehaltung / Abtretung <br> §8 -
+				Bewertungder Nutzer <br> §9 - Haftung <br> §10 -
+				Geheimhaltung /Datenschutz <br> §11 - Dauer und Beendigung
+				desVertragsverhaeltnisses <br> §12 - Nebenbestimmungen <br>
+			</h3>
+			<br>
+			<p style="text-align: justify;">
+				<b>Vorwort</b> <br> <br> 1. Unter www.Jamfinder.ch werden
+				verschiedene Veranstaltungen und Locationen angezeigt. Folgend wird
+				diese Internetpraesenz JAMFINDER benannt. Die Nutzer haben nach
+				erfolgreicher Registrierung und Freischaltung ueber das Internet
+				Zugriff auf die Plattform. Nutzer haben die Moeglichkeit, ueber die
+				Plattform Leistungen (insbesondere Veranstaltungen anzubieten und
+				die Daten zu verwalten). <br> 2. Fuer den Zugang sowie die
+				Nutzung der Plattform gelten ausschliesslich die nachfolgenden
+				Bestimmungen. Entgegenstehende oder von diesen Bedingungen
+				abweichende Bedingungen sind nur wirksam, sofern JAMFINDER diese
+				schriftlich anerkennt. <br> <br> <br> <b>§ 1 -
+					Zugang zur Plattform</b> <br> <br> 1. Durch die Registrierung
+				und Freischaltung bei JAMFINDER (vgl. § 2) erhalten die Nutzer im
+				Rahmen der bestehenden technischen und betrieblichen Moeglichkeiten
+				der Plattform das Recht, ihre Angebote und Gebote auf der Plattform
+				einzustellen und Angebote anderer Anbieter sowie Gebote anderer
+				Interessenten auf der Plattform einzusehen. <br> 2. Aufgrund
+				der technischen Besonderheiten des Internet besteht kein Anspruch
+				der Nutzer auf ununterbrochener Nutzung der Plattform. JAMFINDER
+				uebernimmt daher keine Haftung insbesondere fuer Schaeden, die aus
+				der Nichtverfuegbarkeit der Plattform resultieren. <br> 3.
+				Vorhersehbare Unterbrechungen des Zugangs zur Plattform werden nach
+				Moeglichkeit den Nutzern rechtzeitig angezeigt; zur Benachrichtigung
+				der Nutzer genuegt die Bereitstellung der Mitteilung auf der
+				Plattform oder die Versendung der entsprechenden Nachricht per
+				E-Mail. <br> 4. Zur Nutzung der Plattform ist ein eigener
+				Internetanschluss des Nutzers bzw. des Gastnutzers erforderlich,
+				dessen Kosten der Nutzer bzw. der Gastnutzer selbst zu tragen hat.
+				Die Nutzer stellen sicher, dass ihr Internetanschluss ueber die
+				notwendige Software verfuegt und entsprechende Vorkehrungen fuer
+				einen wirksamen Virenschutz getroffen wurde. <br> <br> <br>
+				<b>§ 2 - Registrierung</b> <br> <br> 1. JAMFINDER behaelt
+				sich die Auswahl der Nutzer, die zur Plattform zugelassen werden,
+				vor. <br> 2. Potenzielle Nutzer der Plattform koennen die
+				Registrierung via Internet durch Ausfuellen des entsprechenden
+				Formulars beantragen. Die Registrierung als Nutzer der Plattform
+				setzt jedoch voraus, dass die Allgemeinen Geschaeftsbedingungen der
+				JAMFINDER akzeptiert werden. <br> 3. JAMFINDER kann zum Zwecke
+				der Registrierung und Überpruefung die Zusendung schriftlicher
+				Unterlagen (Kopien, beglaubigten Kopien oder Originalen z.B.
+				Versicherungsnachweis, Handelsregisterauszug, Gewerbenachweis oder
+				vergleichbarer Dokumente) verlangen. <br> 4. Der Vertrag ueber
+				die Nutzung der Plattform zwischen dem Nutzer und JAMFINDER kommt
+				erst mit der Nachricht der Freischaltung per E-Mail durch JAMFINDER
+				an den Nutzer zustande. <br> <br> <br> <b>§ 3 -
+					Ausschluss von Nutzern</b> <br> <br> 1. JAMFINDER kann auch
+				nach erfolgter Freischaltung des Nutzers den Zugang zur Plattform
+				verweigern und die Informationen dieses Nutzers aus der Datenbank
+				von JAMFINDER entfernen. <br> 2. JAMFINDER wird im Falle eines
+				Ausschlusses des Nutzers auf laufende Handelsaktionen oder
+				bestehende Abwicklungsvereinbarungen Ruecksicht nehmen, soweit dies
+				moeglich und zumutbar ist. <br> <br> <br> <b>§ 4
+					- Verpflichtungen von JAMFINDER</b> <br> <br> 1. JAMFINDER
+				gewaehrt dem registrierten Nutzer nach Freischaltung ein nicht
+				ausschliessliches, zeitlich beschraenktes und nicht uebertragbares
+				Recht zur Nutzung der Plattform. <br> 2. JAMFINDER stellt dem
+				Nutzer einen passwortgeschuetzten Zugang zur Plattform zur
+				Verfuegung, wodurch der Nutzer nach erfolgreichem Login auf seine
+				personalisierte Zugangsseite gelangt. <br> 3. JAMFINDER kann
+				jederzeit die Nutzungsbedingungen der Plattform aendern. Die
+				Ausuebung dieses Ünderungsrechts erfolgt nach billigem Ermessen (§
+				315 BGB). JAMFINDER wird den Nutzern die Ünderung der
+				Nutzungsbestimmungen rechtzeitig vor Eintritt der Wirksamkeit auf
+				der Plattform mitteilen. <br> <br> <br> <b>§ 5 -
+					Verpflichtungen der Nutzer</b> <br> <br> 1. Der Nutzer
+				sichert zu, die Plattform nicht missbraeuchlich zu nutzen, sowie bei
+				der Nutzung der Plattform die allgemeinen Gesetze einzuhalten. Der
+				Nutzer ist insbesondere verpflichtet, die auf der Plattform
+				angebotenen Kommunikationswege (Telefon, E-Mail, Diskussionsforum,
+				etc.) nicht zur Verbreitung rechts- oder sittenwidriger
+				Informationen zu missbrauchen. <br> 2. Der Nutzer verpflichtet
+				sich insbesondere, keine Leistungen auszuschreiben oder anzubieten
+				oder Gebote zu solchen Leistungen abzugeben, die dem Handel mit
+				Waffen, Drogen oder sonstigen Geschaeften, die gegen geltendes Recht
+				verstossen, dienen. <br> 3. Der Nutzer wird alle Ünderungen
+				seiner bei JAMFINDER erhobenen Daten unverzueglich - soweit
+				systemisch moeglich - selbst in den Stammdaten des JAMFINDER-Systems
+				einpflegen oder JAMFINDER darueber informieren. <br> 4. Die
+				Nutzer sichern des weiteren zu, alle gesetzlichen Vorschriften bei
+				dem Zustandekommen und der Durchfuehrung der ueber die Plattform
+				angebahnten Vertragsverhaeltnisse zu beachten; dies gilt
+				insbesondere fuer die Einhaltung von etwaigen arbeitsrechtlichen
+				Vorschriften sowie sonstigen oeffentlich-rechtlichen
+				Verpflichtungen. <br> 5. Der Nutzer stellt JAMFINDER von allen
+				Anspruechen Dritter frei, die gegenueber JAMFINDER aufgrund einer
+				sachwidrigen Nutzung der Plattform geltend gemacht werden. <br>
+				<br> <br> <b>§ 6 - Entgelte</b> <br> <br> 1. Die
+				Abrechnung der Gebuehren fuer Leistungen, die JAMFINDER im Rahmen
+				der Internetpraesenz erbringt, erfolgt durch JAMFINDER im Namen von
+				Gert Dorn auf eigene Rechnung. <br> 2. Momentan wird nur f�r
+				kostenpflichtige Leistungen eine Geb�hr erhoben. <br> 3.
+				Preisaenderungen werden rechtzeitig auf der Website bekannt gegeben.
+				<br> 4. Die Forderungen werden zum Monatsanfang zur Zahlung
+				faellig. Ausnahme bildet hier ein Teilmonat, der zum folgenden
+				Monatsanfang zur Zahlung faellig wird. <br> <br> <br>
+				<b>§ 7 - Aufrechnung / Zurueckbehaltung / Abtretung</b> <br> <br>
+				1. Die Aufrechnung gegen eine Forderung von JAMFINDER oder die
+				Geltendmachung eines Zurueckbehaltungsrechts durch den Nutzer ist
+				nur zulaessig, soweit die der Aufrechnung oder Zurueckbehaltung
+				zugrunde liegende Gegenforderung unbestritten, rechtskraeftig
+				festgestellt oder von JAMFINDER anerkannt ist. <br> 2. Die
+				Abtretung von Forderungen gegen JAMFINDER ist ausgeschlossen. <br>
+				<br> <b>§ 8 - Bewertung der Nutzer</b> <br> <br> 1.
+				Die Nutzer koennen aufgefordert werden, den jeweiligen
+				Geschaeftspartner zu bewerten (Ranking). <br> 2. Die Nutzer
+				sind mit der Veroeffentlichung des Rankings im Login Bereich der
+				Plattform einverstanden. Moeglichkeiten der Nutzer, gegen das
+				Ranking der anderen Vertragspartei vorzugehen, bestehen nicht. <br>
+				3. JAMFINDER uebernimmt keinerlei Haftung fuer die unter den Nutzern
+				gegenseitig vergebenen Bewertungen. Dies gilt insbesondere fuer
+				Schaeden aufgrund rufschaedigender und moeglicherweise nicht
+				gerechtfertigter Rankings der Nutzer. <br> <br> <br>
+				<b>§ 9 - Haftung</b> <br> <br> 1. JAMFINDER uebernimmt
+				eine Haftung fuer systembedingte Ausfaelle, Unterbrechungen und
+				Stoerungen der technischen Anlagen von JAMFINDER und sonstige
+				Pflichtverletzungen nur bei Vorsatz und grober Fahrlaessigkeit ihrer
+				Organe, Mitarbeiter und Erfuellungsgehilfen und nur in dem Masse, in
+				dem JAMFINDER im Verhaeltnis zu anderen Ursachen an der Entstehung
+				des Schadens mitgewirkt hat. <br> 2. JAMFINDER haftet fuer
+				einfache Fahrlaessigkeit nur, soweit ein Organ, Mitarbeiter oder
+				Erfuellungsgehilfe von JAMFINDER eine vertragswesentliche Pflicht
+				verletzt hat. Die Haftung von JAMFINDER ist auf den typischerweise
+				entstehenden Schaden beschraenkt. <br> 3. JAMFINDER haftet
+				nicht fuer die ordnungsgemaesse Übermittlung und den Wahrheitsgehalt
+				der Angaben der Nutzer sowie fuer die zeitgerechte und
+				ordnungsgemaesse Übermittlung elektronischer Willenserklaerungen.
+				Dies gilt insbesondere fuer die nicht ordnungsgemaesse Übermittlung
+				und Darstellung der vom Nutzer eingegebenen Angebote und Gebote. <br>
+				4. JAMFINDER haftet des weiteren nicht fuer die ordnungsgemaesse
+				Erfuellung der zwischen den Nutzern abgeschlossenen Vertraege. <br>
+				<br> <b>§10 - Geheimhaltung/ Datenschutz</b> <br> <br>
+				1. Die Nutzer sind verpflichtet, Zugangskennung und Passwort vor dem
+				Zugriff Dritter geschuetzt aufzubewahren und JAMFINDER unverzueglich
+				davon zu unterrichten, wenn der begruendete Verdacht besteht, dass
+				Dritte unberechtigt von der Zugangskennung, Unterkennungen oder von
+				Passwoertern Kenntnis erlangt haben oder der Zugang zur Plattform
+				auf andere Weise unrechtmaessig benutzt wird. <br> 2. Der
+				Nutzer ist damit einverstanden, dass seine fuer den Betrieb der
+				Plattform notwendigen Daten erfasst, auf dem Server von JAMFINDER
+				gespeichert und zur Abwicklung der Geschaefte ueber die Plattform
+				Erfuellungsgehilfen von JAMFINDER uebermittelt werden. <br> <br>
+				<br> <b>§11 - Dauer und Beendigung des
+					Vertragsverhaeltnisses</b> <br> <br> 1. a) Waehrend der
+				kostenfreien Testphase gilt eine beiderseitige sofortige
+				Kuendigungsfrist. <br> b) Das Vertragsverhaeltnis beginnt mit
+				schriftlicher Annahme oder mit Unterzeichnung dieses Vertrages und
+				kann ohne Angabe von Gruenden ordentlich beiderseits mit einer Frist
+				von zwei Wochen zum Ende des Kalendermonats gekuendigt werden. Die
+				Vertragsdauer betraegt 1 Monat und verlaengert sich jeweils um 1
+				Monat, wenn der Vertrag nicht zuvor ordentlich von einer Partei
+				gekuendigt wird. <br> 2. Jede Partei ist ohne Einhaltung einer
+				Kuendigungsfrist zur ausserordentlichen Kuendigung dieses Vertrages
+				berechtigt, wenn ein wichtiger Grund vorliegt. <br> Ein
+				wichtiger Grund fuer eine ausserordentliche Kuendigung liegt
+				insbesondere dann vor, wenn: <br> a) der Nutzer
+				zahlungsunfaehig wird oder Zahlungsunfaehigkeit droht, <br> b)
+				die Eroeffnung des Insolvenzverfahrens ueber das Vermoegen des
+				Schuldners mangels Masse abgelehnt wurde oder der Nutzer eine
+				eidesstattliche Versicherung abgeben muss oder <br> c) der
+				Nutzer schuldhaft gegen die Bestimmungen § 5 Punkt 1., 2., 3. und 4.
+				dieser Bedingungen verstoesst. <br> 3. Das Nutzungsrecht gilt
+				ab Freischaltung durch JAMFINDER und endet zeitgleich mit dem
+				Vertragsverhaeltnis. <br> 4. Mit der Beendigung des Vertrages
+				wird der Zugang des Nutzers zur Plattform gesperrt und die auf der
+				Plattform hinterlegten Informationen des Nutzers geloescht. <br>
+				<br> <b>§12 - Nebenbestimmungen</b> <br> <br> 1. Das
+				Rechtsverhaeltnis zwischen Nutzer und JAMFINDER unterliegt dem Recht
+				der Schweiz unter Ausschluss des UN-Kaufrechts. <br> 2.
+				Ausschliesslicher Gerichtsstand und Erfuellungsort fuer das
+				Rechtsverhaeltnis zwischen Nutzer und JAMFINDER ist Z�rich, soweit
+				gesetzlich zulaessig. <br> 3. Sollten einzelne Bestimmungen
+				dieser Nutzungsbestimmungen unwirksam sein oder werden oder eine
+				Luecke enthalten, so bleiben die uebrigen Bestimmungen hiervon
+				unberuehrt. Es gilt eine solche Regelung als vereinbart, die dem
+				wirtschaftlichen Zweck der unwirksamen Regelung am naechsten kommt
+				bzw. diese Luecke entsprechend ausfuellt. <br> 4. Ünderungen
+				und Ergaenzungen dieser Nutzungsbestimmungen beduerfen der
+				Schriftform. Dies gilt auch fuer alle Ünderungen dieser
+				Schriftformklausel. <br> <br> <b>Weitere Rechtliche
+					Hinweise</b> <br> <br> <br> <b>Urheberrecht</b> <br>
+				Alle Rechte vorbehalten. Alle Texte, Bilder, Graphiken, Ton-, Video-
+				und Animationsdateien sowie ihre Arrangements unterliegen dem
+				Urheberrecht und anderen Gesetzen zum Schutz geistigen Eigentums.
+				Sie duerfen weder fuer Handelszwecke oder zur Weitergabe kopiert,
+				noch veraendert und auf anderen Web-Sites verwendet werden. <br>
+				<br> <b>Lizenzrechte</b> <br> Bitte haben Sie Verstaendnis
+				dafuer, dass JAMFINDER ihr geistiges Eigentum schuetzen muss und
+				diese Internet-Seiten keinerlei Lizenzrechte an dem geistigen
+				Eigentum von JAMFINDER gewaehren koennen. <br> <br> <b>Haftung</b>
+				<br> Die Informationen und Angaben auf diesen Seiten stellen
+				keine Zusicherung oder Garantie dar, sei sie ausdruecklich oder
+				stillschweigend. Sie stellen insbesondere keine stillschweigende
+				Zusage oder Garantie betreffend die Beschaffenheit, die
+				Handelsfaehigkeit, die Eignung fuer bestimmte Zwecke oder den
+				Nichtverstoss gegen Gesetze und Patente dar. <br> Auf unseren
+				Internet-Seiten finden Sie auch Links zu anderen Seiten im Internet.
+				Wir moechten Sie darauf hinweisen, dass wir keinen Einfluss auf die
+				Gestaltung und den Inhalt der Seiten haben, auf die verlinkt wird.
+				Wir koennen daher auch keine Gewaehr fuer die Aktualitaet,
+				Korrektheit, Vollstaendigkeit oder Qualitaet der dort
+				bereitgestellten Informationen uebernehmen. Vor diesem Hintergrund
+				distanzieren wir uns hiermit von allen Inhalten dieser Seiten. Diese
+				Erklaerung gilt fuer alle auf unseren Internet-Seiten enthaltenen
+				Links zu externen Seiten und deren Inhalte. <br> <br> <b>Datenschutz</b>
+				<br> Der Schutz Ihrer Privatsphaere bei der Verarbeitung
+				persoenlicher Daten ist fuer uns ein wichtiges Anliegen. Wir
+				verarbeiten persoenliche Daten, die beim Besuch unserer Webseiten
+				erhoben werden, gemaess den datenschutzrechtlichen Bestimmungen des
+				Landes, in dem die fuer die Datenverarbeitung verantwortliche Stelle
+				sitzt. JAMFINDER Webseiten koennen allerdings auch Links zu
+				Webseiten anderer Anbietern enthalten, auf die sich diese
+				Datenschutzerklaerung nicht erstreckt. <br> <br> <b>Erhebung
+					und Verarbeitung persoenlicher Daten</b> <br> Wenn Sie unsere
+				Webseiten besuchen, speichern unsere Webserver standardmaessig den
+				Namen Ihres Internet Service Providers, die Webseite, von der aus
+				Sie uns besuchen, die Webseiten, die Sie bei uns besuchen, sowie das
+				Datum und die Dauer des Besuches. Darueber hinaus werden
+				persoenliche Daten nur dann gespeichert, wenn Sie uns diese von sich
+				aus, z.B. im Rahmen der Mitgliederregistrierung angeben. <br> <br>
+				<b>Nutzung und Weitergabe persoenlicher Daten und Zweckbindung</b> <br>
+				JAMFINDER nutzt Ihre persoenlichen Daten zu Zwecken der technischen
+				Administration der Webseiten, zur Mitgliederverwaltung, fuer
+				Produktumfragen und fuer das Marketing nur im jeweils dafuer
+				erforderlichen Umfang. Übermittlungen personenbezogener Daten an
+				staatliche Einrichtungen und Behoerden erfolgen nur im Rahmen
+				zwingender nationaler Rechtsvorschriften. Unsere Mitarbeiter und
+				IT-Dienstleister sind von uns zur Vertraulichkeit verpflichtet. <br>
+				<br> <b>Cookies</b> <br> JAMFINDER verwendet Cookies, um
+				Praeferenzen der Besucher verfolgen und die Webseiten entsprechend
+				optimal gestalten zu koennen. Cookies sind kleine Dateien, die
+				temporaer auf Ihrer Festplatte abgelegt werden. Die in Cookies
+				enthaltenen Informationen dienen der Erleichterung der Navigation
+				und ermoeglichen ein hohes Mass an Benutzerfreundlichkeit einer
+				Website. Natuerlich koennen Sie unsere Website auch ohne Cookies
+				betrachten. Unsere Cookies enthalten keine personenspezifischen
+				Informationen, so dass Ihre Privatsphaere geschuetzt ist. Die
+				meisten Browser akzeptieren Cookies automatisch. Sie koennen das
+				Speichern von Cookies auf Ihrer Festplatte verhindern, indem Sie in
+				Ihren Browser-Einstellungen *keine Cookies akzeptieren* waehlen. Wie
+				das im Einzelnen funktioniert, entnehmen Sie bitte der Anleitung
+				Ihres Browser Herstellers. Wenn Sie keine Cookies akzeptieren, kann
+				dieses aber zu Funktionseinschraenkungen unserer Angebote fuehren. <br>
+				<br> <b>Sicherheit</b> <br> JAMFINDER setzt technische und
+				organisatorische Sicherheitsmassnahmen ein, um ihre durch uns
+				verwalteten Daten gegen zufaellige oder vorsaetzliche
+				Manipulationen, Verlust, Zerstoerung oder gegen den Zugriff
+				unberechtigter Personen zu schuetzen. Unsere Sicherheitsmassnahmen
+				werden entsprechend der technologischen Entwicklung fortlaufend
+				verbessert. <br> <br> <b>Auskunftsrecht</b> <br> Sind
+				Sie als Nutzer registriert, bieten wir Ihnen auch die Moeglichkeit,
+				die Daten selbst zu sehen und gegebenenfalls zu loeschen oder zu
+				aendern. Sollten falsche Informationen gespeichert sein, koennen Sie
+				diese selbst berichtigen oder wir werden diese auf Ihre Aufforderung
+				hin berichtigen. <br> <br> <b>Allgemeiner Disclaimer</b> <br>
+				Mit Urteil vom 12. Mai 1998 - 312 O 85/98 - "Haftung fuer Links" hat
+				das Landgericht Hamburg entschieden, dass man durch die Anbringung
+				eines Links die Inhalte der gelinkten Seite ggf. mit zu verantworten
+				hat. Dies kann nur dadurch verhindert werden, dass man sich
+				ausdruecklich von diesen Inhalten distanziert. <br> Hiermit
+				distanzieren wir uns ausdruecklich von allen Inhalten aller
+				gelinkten Seiten auf unserer Internetpraesenz und machen uns diese
+				Inhalte nicht zu eigen. Diese Erklaerung gilt fuer alle auf unserer
+				Internetpraesenz publizierten Links und fuer alle Inhalte der
+				Seiten, zu denen die bei uns veroeffentlichten Banner und Links
+				fuehren.
+			</p>
+
+		</div>
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade">Event
+							List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade" class="ui-btn-active">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer -->
+
+	</div>
+	<!-- /page -->
+	<!--
+		########################################################################################
+		########################################################################################
+		Neue Seite user PWCHECK
+		########################################################################################
+		########################################################################################
+		-->
+
+	<div data-role="page" id="PwdUpdate">
+
+		<div data-role="header" data-mini="true" data-theme="b"
+			data-position="fixed" data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content">
+			<div id="pwdHead"></div>
+			<!-- 	<form id="pwdcheck" method="POST" action="javascript:;" onsubmit="return checkForm(this);"> -->
+			</form>
+			<form id="pwdcheck" method="POST">
+				<div id="pwdForm"></div>
+				<button data-mini="true" type="submit" data-icon="check"
+					data-theme="b">submit password update</button>
+			</form>
+
+		</div>
+		<script src="js/pwdupdate.js"></script>
+	</div>
+
+	<!--
+		########################################################################################
+		########################################################################################
+		Neue Seite user PWCHECK
+		########################################################################################
+		########################################################################################
+		-->
+
+	<div data-role="page" id="Apps">
+		<div data-role="header" data-theme="b" data-position="fixed"
+			data-tap-toggle="false" class="header"></div>
+		<div class="leftpanel"></div>
+
+		<div data-role="content">
+			<h1 align="center">get your mobile app</h1>
+			<p align="center">
+				Hello, here you can download the Jamfinder App. <br> <br>
+			<div align="center">
+				<b>Android </b> <br> <a
+					href="http://jamfinder.info/apps/Jamfinder-debug.apk"
+					target="_blank"><img src="img/android.jpg"
+					style="width: 100px; height: 100px" align="middle" /></a>
+			</div>
+			<div align="center">
+				<b>Windows </b><br> <a
+					href="http://jamfinder.info/apps/app.xap" target="_blank"><img
+					src="img/win.jpg" style="width: 100px; height: 100px"
+					align="middle" /></a>
+			</div>
+			<div align="center">
+				 get ios_source.tar.gz <br> <a
+					href="http://jamfinder.info/apps/ios_source.tar.gz" target="_blank"><img
+					src="img/ios.jpg" style="width: 100px; height: 100px"
+					align="middle" /></a> 
+			</div>
+			<div align="center">
+				<b><font color="red">Help us to make Jamfinder better and
+						use it with your marketing to get more </font>"walk-in customers".</b>
+				<h3 align="center">
+					<a href="mailto:info@jamfinder.info"
+						class="ui-btn  ui-icon-mail ui-shadow ui-corner-all ui-btn-icon-left ui-btn-b ">Your
+						feedback is welcome !</a>
+			</div>
+			</h3>
+			</p>
+
+		</div>
+		<!-- /content -->
+
+		<!-- 	test footer <div  data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b" class="footer" ></div >-->
+
+		<div data-role="footer" data-id="footernav" data-tap-toggle="false"
+			data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-theme="b">
+				<ul>
+					<li><a href="#list" data-icon="grid" data-transition="fade"
+						class="ui-btn-active">Event List</a></li>
+					<li><a href="#map" data-icon="location" data-transition="fade">Event
+							Map</a></li>
+					<li><a href="#insertLOC" data-icon="navigation"
+						data-transition="fade">Add Event</a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
+		</div>
+		<!-- /footer -->
+	</div>
+	<!-- /page -->
+
+	<!-- soll global Header and Footer ausgeben -->
+	<script src="js/menue.js"></script>
+</body>
+</html>

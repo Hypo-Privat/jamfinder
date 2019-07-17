@@ -1,0 +1,72 @@
+[data-role=page] {
+background-image: url(../img/blu_stripes.png);
+/*
+background-attachment:fixed;
+background-position: center bottom;
+background-repeat:no-repeat; 
+*/
+}
+
+.bild_schatten {
+width:95%;
+height:auto;
+border:6px solid #fff;
+box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.85);
+-webkit-transform:rotate(1deg);
+}
+
+[data-role=content]{
+background-image: url(../img/blu_stripes.png);
+}
+
+[data-role=content] h1 {
+font-family: 'Leckerli One', cursive;
+font-weight: normal;
+color:#99ccff;
+font-size:2em;
+line-height:1em;
+text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
+text-align:center;
+}
+
+[data-role=content] p, [data-role=content] li {
+font-family: 'Noticia Text', serif;
+height:100%;
+width:auto;
+}
+
+[data-role=listview] img {
+height:100%;
+width:auto;
+}
+
+.ui-li-thumb {
+max-width:100%;
+}
+
+[data-role=listview] h3, [data-role=listview] p{
+padding-left:30px;
+}
+
+/*
+p { color:gold; }
+h2 { color:gold; }
+h3 { color:gold; }
+h4 { color:gold; }
+h5 { color:gold; }
+
+*/
+#event-content {
+padding:0px;
+}
+
+/* gert button center */
+.center{
+margin: 0 auto;
+
+}
+.center-center {
+margin: 0 auto;
+text-align: center
+
+}

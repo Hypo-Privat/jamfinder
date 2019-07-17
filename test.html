@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JamFinder show you what's going on at your home base !</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="reply-to" content="info@jamfinder.info" />
+
+		<meta name="author" content="Gert Dorn">
+		<meta name="description"
+		content="Welcome to Jamfinder ! We provide you daily what's going on where you stay " />
+		<meta name="keywords"
+		content="Jamsession,Openmic,Karaoke, Music,Band,Musikertreff,Rock,Blues,Events,Party,Konzert, Musicans, Locations" />
+		<meta name="robots" content="index follow" />
+		<meta name="revisit-after" content="14 days">
+		<meta name="audience" content="all">
+		<meta name="siteinfo" content="http://www.jamfinder.info/robots.txt">
+		<meta name="expires" content="0">
+		<meta name="copyright" content="Copyright &copy; 2014-2030" />
+
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<!-- <script src="js/menue.js"></script> -->
+
+		<!-- Einbindung von jQuery Mobile
+		VORSICHT bei Version Wechsel javascript Formular geht dann nicht mehr Symbole und Farben wechseln
+		-->
+		<!--loacl abspeichern verringert zuugriffszeit
+		<link rel="stylesheet" 	href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.css" />
+		<script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.js"></script>
+		<script src="js/jquery/jquery.ui.map.full.min.js"></script> -->
+
+		<!-- <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script> -->
+
+		<!--local abgelegt -->
+		<link rel="stylesheet" 	href="css/jquery/jquery.mobile-1.4.5.css" />
+		<script src="js/jquery/jquery-1.9.0.js"></script>
+		<script src="js/jquery/jquery-migrate-1.4.1.min.js"></script>
+		<script src="js/jquery/jquery.mobile-1.4.5.js"></script>
+		<script src="js/jquery/jquery.ui.map.full.min.js"></script>
+
+		<!-- Einstellungen zur Defintion als WebApp -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport"
+		content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<link rel="apple-touch-icon-precomposed" href="img/icon-ipad.png"
+		sizes="72x72" />
+		<link rel="apple-touch-icon-precomposed"
+		href="img/icon-iphone-retina.png" sizes="114x114" />
+		<link rel="apple-touch-icon-precomposed"
+		href="img/icon-ipad-retina.png" sizes="144x144" />
+		<link rel="apple-touch-icon-precomposed" href="img/icon-iphone.png" />
+
+		<!-- Google Fonts laden -->
+		<link href='http://fonts.googleapis.com/css?family=Leckerli+One'
+		rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Noticia+Text'
+		rel='stylesheet' type='text/css'>
+
+		<script
+		src="http://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&sensor=TRUE"></script>
+		<script src="https://www.google.com/jsapi"></script>
+
+		<!-- MEINE weiteren Stile -->
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/styles-pic.css" />
+
+		<!-- Check Browser  http://detectmobilebrowsers.com/
+		<script src="js/detectmobilebrowser.js"></script>-->
+		<!-- END Check Browser  -->
+
+	</head>
+	<body>
+
+		<h1>jQuery Uploads</h1>
+		<form action="#" enctype="multipart/form-data" method="post">
+			<ul>
+				<li>
+					<label for="name">Name:</label>
+					<input type="text" name="name" id="name" multiple>
+				</li>
+				<li>
+					<label for="file_upload">File:</label>
+					<input type="file" name="file_upload" id="file_upload" multiple>
+				</li>
+				<li>
+					<input class="button green" type="submit" name="submit" value="Submit Content">
+				</li>
+			</ul>
+		</form>
+		<script>
+			$(function() {
+				// Variable to store your files
+				var files;
+				// Add events
+				$('input[type=file]').on('change', prepareUpload);
+				$('form').on('submit', uploadFiles);
+				// Grab the files and set them to our variable
+				function prepareUpload(event) {
+					files = event.target.files;
+				}
+
+				// Catch the form submit and upload the files
+				function uploadFiles(event) {
+					event.stopPropagation();
+					// Stop stuff happening
+					event.preventDefault();
+					// Totally stop stuff happening
+					// START A LOADING SPINNER HERE
+					// Create a formdata object and add the files
+					var data = new FormData();
+					$.each(files, function(key, value) {
+						data.append(key, value);
+					});
+					$.ajax({
+						url : 'submit.php?files',
+						type : 'POST',
+						data : data,
+						cache : false,
+						dataType : 'json',
+						processData : false, // Don't process the files
+						contentType : false, // Set content type to false as jQuery will tell the server its a query string request
+						success : function(data, textStatus, jqXHR) {
+							if ( typeof data.error === 'undefined') {
+								// Success so call function to process the form
+								submitForm(event, data);
+							} else {
+								// Handle errors here
+								console.log('ERRORS: ' + data.error);
+							}
+						},
+						error : function(jqXHR, textStatus, errorThrown) {
+							// Handle errors here
+							console.log('ERRORS: ' + textStatus);
+							// STOP LOADING SPINNER
+						}
+					});
+				}
+
+				function submitForm(event, data) {
+					// Create a jQuery object from the form
+					$form = $(event.target);
+					// Serialize the form data
+					var formData = $form.serialize();
+					// You should sterilise the file names
+					$.each(data.files, function(key, value) {
+						formData = formData + '&filenames[]=' + value;
+					});
+					$.ajax({
+						url : 'submit.php',
+						type : 'POST',
+						data : formData,
+						cache : false,
+						dataType : 'json',
+						success : function(data, textStatus, jqXHR) {
+							if ( typeof data.error === 'undefined') {
+								// Success so call function to process the form
+								console.log('SUCCESS: ' + data.success);
+							} else {
+								// Handle errors here
+								console.log('ERRORS: ' + data.error);
+							}
+						},
+						error : function(jqXHR, textStatus, errorThrown) {
+							// Handle errors here
+							console.log('ERRORS: ' + textStatus);
+						},
+						complete : function() {
+							// STOP LOADING SPINNER
+						}
+					});
+				}
+
+			});
+		</script>
+	</body>
+</html>

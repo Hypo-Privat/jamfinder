@@ -1,0 +1,10 @@
+# robots.txt zu http://www.jamfinder.info/
+
+User-agent: UniversalRobot/1.0
+User-agent: Jam-Robot
+Disallow: /quellen/dtd/
+
+User-agent: *
+Disallow: /whg/
+Disallow: /temp/
+Disallow: /newsticker.shtml

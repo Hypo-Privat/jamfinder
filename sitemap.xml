@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://jamfinder.info/</loc>
+  <lastmod>2016-11-24T18:48:40+00:00</lastmod>
+</url>
+
+<url>
+  <loc>http://jamfinder.info/agb.html</loc>
+  <lastmod>2016-11-24T18:48:39+00:00</lastmod>
+</url>
+	<url>
+		<loc>http://jamfinder.info/all-jamfinder.html</loc>
+		<lastmod>2016-11-24T18:48:39+00:00</lastmod>
+	</url>
+	<url>
+		<loc>http://jamfinder.info/jamsession-karaoke-poetryslam-basel.html</loc>
+	</url>
+	<url>
+		<loc>http://jamfinder.info/jamsession-karaoke-poetryslam-zuerich.html</loc>
+	</url>
+	<url>
+		<loc>http://jamfinder.info/jamsession-karaoke-poetryslam-bremen.html</loc>
+	</url>
+	<url>
+		<loc>http://jamfinder.info/jamsession-karaoke-poetryslam-berlin.html</loc>
+	</url>
+	<url>
+		<loc>http://jamfinder.info/jamsession-karaoke-poetryslam-hamburg.html</loc>
+	</url>
+	<url>
+		<loc>http://jamfinder.info/jamsession-karaoke-poetryslam-muenchen.html</loc>
+	</url>
+	<url>
+		<loc>http://jamfinder.info/jamsession-karaoke-poetryslam-stuttgart.html</loc>
+	</url>
+	<url>
+			<loc>http://jamfinder.info/jamsession-karaoke-poetryslam-nuernberg.html</loc>
+	</url>
+</urlset>

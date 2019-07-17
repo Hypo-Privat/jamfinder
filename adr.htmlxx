@@ -1,0 +1,288 @@
+ 	Hannover 	30519 	Prinzenstraße 10 	Variet<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>JamFinder show you what's going on at your home base !</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="reply-to" content="info@jamfinder.info" />
+
+		<meta name="author" content="Gert Dorn">
+		<meta name="description"
+		content="Welcome to Jamfinder ! We provide you daily what's going on where you stay " />
+		<meta name="keywords" content="Jamsession, session, Openmic,Karaoke, Music,Band,Musiker,treff,Rock,Blues,Events,Party,Konzert, Musicans, Poetry Slam, Slam ,Dichterwettstreit ,Dichterschlacht)" />
+		<meta name="robots" content="index follow" />
+		<meta name="revisit-after" content="14 days">
+		<meta name="audience" content="all">
+		<meta name="siteinfo" content="http://www.jamfinder.info/robots.txt">
+		<meta name="expires" content="0">
+		<meta name="copyright" content="Copyright &copy; 2014-2030" />
+
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<script src="js/menue.js"></script>
+		</head>
+	<body>
+		<?php 	session_start(); ?>
+		<!-- Google Tag Manager -->
+		<noscript>
+			<iframe src="//www.googletagmanager.com/ns.html?id=GTM-KJL8NG"
+			height="0" width="0" style="display: none; visibility: hidden"></iframe>
+		</noscript>
+		<script>
+			(function(w, d, s, l, i) {
+				w[l] = w[l] || [];
+				w[l].push({
+					'gtm.start' : new Date().getTime(),
+					event : 'gtm.js'
+				});
+				var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore(j, f);
+			})(window, document, 'script', 'dataLayer', 'GTM-KJL8NG');
+		</script>
+		<!-- Google Tag Manager -->
+		<!-- Google Tracking-Code -->
+		<script>
+			(function(i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] ||
+				function() {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+			ga('create', 'UA-59756347-1', 'auto');
+			ga('send', 'pageview');
+
+		</script>
+		<!-- End Google TTracking-Code -->
+		<p  align="center">
+		
+		é Marlene 	No Location Info 	http://www.bluesjoint.de
+Switzerland 	Rapperswil 	8640 	Marktgasse 9 	Bären 	No Location Info 	http://www.baere.ch/
+Switzerland 	Langenthal 	4900 	Jurastrasse 12 	Chrämerhuus 	No Location Info 	http://chraemerhuus.ch/
+Switzerland 	Küssnacht 	6403 	Unterdorf 5 	Restaurant Rössli 	No Location Info 	http://roessli-kuessnacht.ch
+Switzerland 	Buchs SG 	9470 	Wiedenstrasse 48 	Zentrum Neuhof 	No Location Info 	http://www.krempel.ch/
+Switzerland 	Kreuzlingen 	8280 	Hauptstrasse 88 	Z88 	No Location Info 	http://z88.ch
+Switzerland 	Arbon 	9320 	Bildstockstrasse 5 	Triebwerk, Kunst 	No Location Info 	http://www.triebwerk-arbon.ch/
+Switzerland 	Baden 	5400 	Schmiedestrasse 12 	Nordportal 	No Location Info 	http://nordportal.ch/
+Switzerland 	Madiswil 	4934 	Obergasse 2 	Gemeindesaal Dorfzentrum 	No Location Info 	http://www.madiswil.ch/
+Switzerland 	Frauenfeld 	8500 	Industriestrasse 23 	Theater im Eisenwerk 	No Location Info 	http://www.eisenwerk.ch
+Switzerland 	St.Gallen 	9004 	Schmiedgasse 15 	Grabenhalle 	No Location Info 	http://www.grabenhalle.ch/
+Switzerland 	St.Gallen 	9000 	Teufenerstrasse 2 	Baracca Bar Music 	No Location Info 	http://www.baracca.ch/
+Switzerland 	Herisau 	9100 	Gossauerstrasse 59 	Jugendzentrum Herisau, 	No Location Info 	http://www.jz-herisau.ch
+Switzerland 	Wädenswil 	8820 	Seestrasse 57 	Theater Ticino 	No Location Info 	http://www.theater-ticino.ch/
+Switzerland 	Affoltern a. A. 	8910 	Obere Bahnhofstr. 7 	Galerie am Märtplatz 	No Location Info 	http://www.affoltern-am-albis.ch/de/dorfplatz/loka...
+Switzerland 	Solothurn 	4503 	Kofmehlweg 1 	Kulturfabrik Kofmehl 	No Location Info 	http://kofmehl.net/
+Switzerland 	Thun 	3600 	Obere Hauptgasse 49 	Mundwerk Thun 	No Location Info 	http://www.mundwerk-thun.ch/
+Switzerland 	Bern 	3012 	Neubrückstrasse 43 	Bierhübeli 	No Location Info 	http://www.bierhuebeli.ch/
+Switzerland 	Thun 	3600 	Scheibenstrasse 63 	Bierkönig-Thun 	No Location Info 	http://www.bierkoenig-thun.ch/
+Switzerland 	Bern 	3011 	Kramgasse 6 	ONO Das Kulturlokal 	No Location Info 	http://www.onobern.ch/
+Switzerland 	Bern 	3011 	Gerechtigkeitsgasse 53 	Keller-Bar 	No Location Info 	http://www.jetlaeg.ch/
+Switzerland 	Steffisburg 	3612 	Zibelegässli 4 	Alte Schmitte 	No Location Info 	http://www.alteschmitte.ch/
+Switzerland 	St. Moritz 	7500 	Via Veglia 18 	Kulm Hotel St. Moritz 	No Location Info 	http://www.kulm.com/
+Switzerland 	St.Gallen 	9001 	Davidstrasse 40 	Location of Act 	No Location Info 	http://www.gambrinus.ch/
+Switzerland 	St.Gallen 	9000 	Güterbahnhofstr. 4 	Kugl am Gleis 	No Location Info 	http://www.kugl.ch/
+Switzerland 	St. Gallen 	9000 	Brühltor Passage 	NEW DOWN TOWN 	No Location Info 	http://www.downtownclub.ch/
+Switzerland 	Wädenswil 	8820 	Seestrasse 50 	Club Industrie 	No Location Info 	http://www.club-industrie.ch
+Germany 	Postbauer-Heng 	92353 	Centrum 22 	Liveszene e.V. Postbauer-Heng 	ca. 14-tägig Music-Events, Rock Pop Blues Funk a... 	http://kish-live.de
+Switzerland 	Zürich 	8003 	Aemtlerstrasse 16 	Café Bar Plüsch 	No Location Info 	http://www.cafe-pluesch.ch
+Switzerland 	aarau 	5001 	Stadthöfli 7 	jazzclub aarau 	No Location Info 	http://www.jazzclubaarau.ch/
+Switzerland 	Winterthur 	8400 	Stadthausstrasse 4 	Restaurant/Bar Bloom 	No Location Info 	http://bloom.ch
+Switzerland 	Altikon 	8479 	Schulweg 3 	Schlosshof 	No Location Info 	http://www.schlosshof.ch
+Switzerland 	Luzern 	6004 	Zürichstrasse 49 	Radio 3fach 	No Location Info 	http://www.3fach.ch
+Switzerland 	Mitlödi 	8756 	Hauptstrasse 32 	Modern Music School 	No Location Info 	http://www.modernmusicschool.cc
+Switzerland 	genève 	1201 	rue des alpes 10 	AMR 	No Location Info 	http://www.amr-geneve.ch
+Switzerland 	Brugg 	5200 	Aarauerstrasse 26 	Kultur im Dampfschiff 	No Location Info 	http://www.dampfschiffbrugg.ch
+Switzerland 	Bern 	3011 	Mühlenplatz 11  	5ème ETAGE 	No Location Info 	http://www.5etage.ch/
+Switzerland 	Maur 	8124 	Badanstaltstrasse 4 	Filmstudio Maur 	No Location Info 	http://bost.ch
+Switzerland 	Winterthur 	8400 	Stadthausstrasse 119 	Casinotheater Winterthur 	No Location Info 	http://www.casinotheater.ch/
+Switzerland 	Wädenswil 	8820 	Engelstrasse 2 	Engel Bar 	No Location Info 	http://www.muppethorns.ch
+Switzerland 	Zürich 	8001 	Theaterstrasse 10 	Mascotte 	No Location Info 	http://mascotte.ch
+Switzerland 	Zürich 	8004 	Badenerstrasse 109 	Plaza 	No Location Info 	http://plaza-zurich.ch
+Switzerland 	Schwyz 	6430 	Hinterdorfstrasse 19 	sonderbar-schwyz 	1111something about your place.... 	http://www.sonderbar-schwyz.ch
+Switzerland 	Samstagern 	8833 	Hügsam 5 	Test 1 	1111 	http://your.homepage.com
+Switzerland 	Liestal 	4410 	Rathausstrasse 30 	Dichter- und Stadtmuseum Liestal 	Willkommen im Dichter- und Stadtmuseum LiestalMit... 	http://www.dichtermuseum.ch/
+Switzerland 	Zürich 	8002 	Bleicherweg 68 	Almodobar – Bar Lounge 	No Location Info 	http://almodobar.com
+Switzerland 	Zürich 	8005 	Schiffbaustrasse 4 	NietturmBar 	Die Nietturm Bar ganz für Sie alleineDie Niettur... 	http://www.nietturm.ch/
+Switzerland 	Zürich 	8005 	Hardstrasse 305 	Escherwyss 	saggdgadgadga 	http://escherwyss.com
+Switzerland 	Zürich 	8005 	Limmatstrasse 195 	Mambo Cafe 	No Location Info 	http://www.mambocafe.ch/
+Switzerland 	Zürich 	8004 	Sihlfeldstrasse 85 	Hypokrat im Café Derby 	No Location Info 	http://https://www.facebook.com/hypokratzuerich/
+Switzerland 	Zug 	6300 	Chamerstrasse 177 	CHOLLERHALLE 	No Location Info 	http://www.chollerhalle.ch
+Germany 	Stuttgart-Mönchfeld 	70378 	Aalstrasse 36 	Fun Pub 	No Location Info 	http://karaoke-funpub.de/
+Switzerland 	Schwyz 	6430 	Hinterdorfstrasse 19 	sonderbar-schwyz 	1111something about your place.... 	http://www.sonderbar-schwyz.ch
+Switzerland 	Thun 	3600 	Rathausplatz 3 	Funkhouse Musikbar 	No Location Info 	http://www.funkhousethun.ch
+Switzerland 	Zug 	6304 	Chamerstrasse 173 	Kulturzentrum Galvanik     	No Location Info 	http://www.galvanik-zug.ch
+Switzerland 	Zürich 	8005 	Röntgenstrasse 150 	Firma 	Grrz 	http://www.LOCATION.de
+Austria 	Wien 	1010 	BIBERSTRASSE 2 	test Wien23515 	xsdga 	http://www.elwoodloud.com
+Austria 	Wien 	1080 	Lange Gasse 50 	Beer42123 	Die Karaokebar Beer 	http://www.beerandsongs.at
+Switzerland 	Zürich 	8004 	langstrasse 99 	test 	Ghfhh 	http://www.LOCATION.com222
+Switzerland 	Zürich 	8004 	langstrasse 31 	test 	fgdefj 	http://www.LOCATION.com222
+Switzerland 	Zürich 	8004 	Helvetiaplatz 	666 	Hbvbnñfvkkgmffvvvvvgvvvv8866 	http://www.LOCATION.8866
+Switzerland 	Zürich 	8057 	seestrasse 456 	rote fabrik 	No Location Info 	http://www.rotefabrik.ch
+Switzerland 	Zürich 	8001 	Stampfenbachstr 8 	Commihalle 	No Location Info 	http://www.commercio.ch
+Germany 	Berlin 	10781 	Barbarossastr. 65 	Juxirkus 	No Location Info 	http://www.juxirkus.de
+Germany 	Berlin 	10437 	Lychener Str. 60 	Ausland 	No Location Info 	http://ausland-berlin.de/
+Germany 	Berlin 	10997 	Görlitzerstraße 1-3 	edelweiss36 	No Location Info 	http://edelweiss36.com
+Germany 	Berlin 	13627 	Reichweindamm 5-9 	SingCity Karaoke 	No Location Info 	http://www.singcity.de/
+Switzerland 	Zürich 	8008 	Kreuzstrasse 26 	Gainsbourg 	No Location Info 	http://www.gainsbourg.ch
+Switzerland 	Au Zürich 	8804 	Alte Steinacherstrasse 4 	Schützenhuus Au 	No Location Info 	http://www.schuetzenhuusau.ch
+Germany 	München 	80331 	Blumenstrasse 32 	Münchner Marionettentheater 	No Location Info 	http://www.muenchner-marionettentheater.de
+Germany 	München 	81667 	Rosenheimer Str. 5 	Philharmonie im Gasteig 	No Location Info 	http://www.gasteig.de
+Germany 	München 	80802 	Feilitzschstrasse 17 	Hopfendolde 	No Location Info 	http://http://www.hopfendolde.com
+Germany 	München 	80805 	Traubestraße 5 	soundcafe 	No Location Info 	http://www.kjr-m.de
+Germany 	München 	80802 	Occamstrasse 8 	Münchner Lustspielhaus 	No Location Info 	http://www.lustspielhaus.de
+Switzerland 	Richterswil 	8805 	Untere Schwandenstrasse 29b 	Risa Bar 	Band aus Richterswil 	http://www.risa-bar.ch
+Switzerland 	Zürich 	8050 	Hagenholzstrasse 22 	Credit Suisse Tower 	Weisswurst und gute laune!!! 	http://www.LOCATION.com
+Switzerland 	Luzern 	6002 	Adligenswilerstrasse 22 	ART DECO HOTEL MONTANA 	Events in Luzern, JazzJeden Donnerstag ab 21.30 Uh... 	http://www.hotel-montana.ch
+Switzerland 	Wetzikon 	8620 	Zürcherstrasse 40/42 	Kulturfabrik Wetzikon 	Einheimische mischen sich unter überregionale und... 	http://www.kulturfabrik.ch
+Switzerland 	Winterthur 	8400 	Steinberggasse 16 	Albani Music Club AG 	Immer am 1. Donnerstag des Monats laden Dani Suter... 	http://www.albani.ch
+Switzerland 	Winterthur 	8404 	Ida-Sträuli-Str. 73 	Musikzentrum Giesserei 	no info letzter Fr im Monat 	http://www.musikzentrumgiesserei.ch
+Switzerland 	Rothenburg 	6023 	Buzibachring 10 	KARAOKE BAR 	EINZIGER KARAOKE VEREINMIT KARAOKE BAR DER ZENTRAL... 	http://www.karaokeverein.ch/
+Switzerland 	Effretikon 	8307 	Spinnereiweg 6 	B&B-BAR 	Jam Session ist offen für alle MusikerInnen aller... 	http://www.b-und-b-bar.ch
+Switzerland 	Dielsdorf 	8157 	Ruchwiesenstrasse 5 	Soundbuster 	am Sessions
+
+mit Improvisationen aller musikalis... 	http://www.soundbuster.ch
+Switzerland 	Zürich 	8004 	Langstrasse 120 	Langstars 	Jede Woche findet hier ein Jam statt.Ab 20:00 Uhr ... 	http://www.langstars.ch/
+Switzerland 	Dietikon 	8953 	Oberdorfstrasse 51 	Zino Lounge 	Jam Lounge am Samstag 	http://www.zino-lounge.ch/Zino Lounge
+Switzerland 	Aarau 	5001 	Stadthöfli 7 	Jazzclub 	Im Lokal Ahoj hissen meistens am ersten Donnerstag... 	http://www.jazzclubaarau.ch/
+Switzerland 	Aarau 	5000 	Weihermattstrasse 80 	Go West Aarau 	Jeden ersten Montag des Monats von 20.15–23.15 U... 	http://thommen-gastro.ch
+Switzerland 	Luzern 	6005 	Spelteriniweg 4 	Treibhaus 	No Info 	http://www.treibhausluzern.ch/
+Switzerland 	Basel 	4057 	Klybeckstr. 1b 	Parterre Restaurant 	Jazzkollektiv: Konzert 	http://parterre.net
+Switzerland 	Niederbipp 	4704 	Scharnagelnstrasse 20 	Blues Beiz 	Offene Jamsession Mittwoch 	http://www.bluesbeiz.ch
+Switzerland 	Bern-Liebefeld 	3097 	Könizstrasse 161 	bejazz 	Offene Jazz JamsessionMarc Stucki (sax) | t.b.a. (... 	http://www.bejazz.ch/
+Switzerland 	Bern 	3011 	Hirschengraben 11 	Pizza Bar 	Immer Donnerstag No Info 	http://www.piazza-bar.ch
+Switzerland 	Bern 	3013 	Dammweg 43 	Café Kairo 	Open Mike – Trummers offene Bühne für Singer u... 	http://cafe-kairo.ch
+Switzerland 	Thun 	3600 	Uttigenstrasse 11 	Brügglibar GmbH 	Jeweils am 1. Freitag des Monats präsentieren wir... 	http://bruegglibar.ch
+Switzerland 	Spiez 	3700 	Bahnhofstr. 2 	ROX 	Die ROX music bar veranstaltet gelegentlich OPEN M... 	http://roxbar.ch
+Germany 	Konstanz 	78462 	Hieronymusgasse 3 	K9 	Jamsessions bieten einen Treffpunkt für die regio... 	http://k9-kulturzentrum.de
+Switzerland 	Zürich 	8003 	Birmensdorferstrasse 150 	Falcone 	Jeden DonnerstagTüröffnung: 21.00 Uhr - Eintritt... 	http://restaurantfalcone.ch
+Germany 	Nürnberg 	90429 	Muggenhofer Str. 141 	Zentrifuge - Kommunikation, Kunst und Kultur e.V. 	Rock, Blues, Außergewöhnliches!Die Musiker von C... 	http://kulturhallenuernberg.ning.com/
+Switzerland 	Zürich 	8002 	Bleicherweg 33 	Hochhaus Palme 	test 	http://www.a-t-c.ch
+Singapore 	Singapore 	238164 	111 Somerset Road 	Muddz Murphys 	hi 	http://muddymurphys.com
+Country 	City 	Postcode 	Street 	Firma 	Comment 	url 	 
+Singapore 	Singapore 	098269 	8 Sentosa Gateway 	Universal Studios 	Pursuant to Section 666 of the Insurgency of Morta... 	http://halloweenhorrornights.com.sg/
+Singapore 	Singapore 	038981 	1 Esplanade Drive 	Crazy Elephant 	This is poetry slam, a spoken word competition whe... 	http://www.esplanade.com.sg/whats_on/programme_inf...
+Singapore 	Singapore 	179024 	3 River Valley Rd 	Crazy Elephant 	Rock out at our special events, Crazy Elephant sty... 	http://www.crazyelephant.com/
+Singapore 	Singapore 	249724 	26 Sentosa Gateway 	Hadrock Cafe 	Singapore is a bustling cosmopolitan city with div... 	http://www.hardrockcafe-Singapore.com
+Switzerland 	Zürich 	8005 	Neugasse 56 	Acapulco Bar 	Wollt Ihr Geburtstag feiern, einen Firmen Apero ve... 	http://www.acapulco.ch
+Germany 	Nürnberg 	90411 	Klingenhofstraße 50c 	RESIS Nachtklub 		http://www.resis-nachtklub.de
+Switzerland 	zürich 	8005 	Neu Gasse 85 	Jamfinder 	This is the Jamfinder office. 	http://www.jamfinder.info
+Germany 	Nürnberg 	90402 	Gleissbühlstr. 13 	Amerika Haus 		http://www.dai-nuernberg.de
+Germany 	Nürnberg 	90461 	Frankenstr. 200 	Z-Bau 		http://www.z-bau.info
+Germany 	Lichtenau 	91586 	Immeldorf Hauptstr. 25 	Weisses Ross 		http://www.immeldorf.com
+Germany 	Nürnberg 	90419 	Hufelandstr. 4 	Vischers Blues Jam e.V. 		http://www.vischersbluesjam.de
+Germany 	Habach 	82392 	Obermühle 1 	Village 		http://www.village-habach.de
+Germany 	Nürnberg 	90459 	Pillenreuther Str. 147 	Südpunkt 		http://www.suedpunkt-nuernberg.de
+Germany 	Obertrubach 	91286 	Untertrubach 19 	Studio Lounge 		http://www.thestudiolounge.de/Willkommen.html
+Germany 	Erlangen 	91054 	Hauptstr. 107 	Strohalm 		http://www.strohalm.de
+Germany 	Langlau 	91738 	Seestr. 33 	Strandhotel Seehof 		http://www.strandhotel-seehof.de
+Germany 	Bamberg 	96049 	Obere Sandstr. 18 	Stilbruch 		http://www.stilbruch-bamberg.de
+Germany 	Fürth 	91052 	Erlangen Stubenlohstr. 25 	Starclub 		http://www.starclub-erlangen.de
+Germany 	Fürth 	90762 	Rosenstr. 50 	Stadthalle Fürth 		http://www.stadthallefuerth.de
+Germany 	Simmelsdorf 	91245 	Osternoher Weg 12 	Simmelsdorfer Mühle 		http://www.simmelsdorfer-muehle.de
+Germany 	Nürnberg 	90429 	Adam-Klein-Str. 27 	Schanzenbräu 		http://www.schanzenbraeu.de
+Germany 	Rosstal 	90572 	Postfach 1 	Roschtler - Kulturzelt 		http://www.roschtler-kulturzelt.de
+Germany 	Herzogenaurach 	91074 	Marktplatz 11 	Ratskeller 		http://www.ratskeller-herzogenaurach.de
+Germany 	Nürnberg 	90461 	Augustenstr. 25 	Quibble 		http://www.quibble.de
+Germany 	Roth-Eckersmühlen 	91154 	Hauptstrasse 53 	Posthorn 		http://www.posthorn-Eckersmuehlen.de
+Germany 	Nürnberg 	90427 	Silberstr. 9 	Pegnitzbühne e. V. 		http://www.pegnitzbuehne.de
+Germany 	Würzburg 	97070 	Theaterstr. 10 	Omnibus 		http://www.omnibus-wuerzburg.de
+Germany 	Nürnberg 	90429 	Fürther Str. 63 	Musikzentrale - MUZ Club 		http://www.musikzentrale.com
+Germany 	Schwarzenbruck 	90592 	Bürgerhalle 	Mondscheinmarkt Plärrer b. 		http://www.msm592.de/
+Germany 	Schwabach 	91126 	Zöllnertorstr.2 	Marys Basement 		http://www.marysbasement.de/
+Germany 	Nürnberg 	90480 	Scharrerstr. 15 	Luise - The Cult Factory 		http://www.luise-cultfactory.de
+Germany 	Nürnberg 	90482 	Marthastr. 60 	Loni-Uebler-Haus 		http://www.kubiss.de/kultur/info/kuf/
+Germany 	Nürnberg 	90429 	Austrasse 70 	Loft Gostner Hoftheater 		http://www.loft-nuernberg.de
+Germany 	Nürnberg 	90480 	Am Tiergarten 8 	Löwensaal 		http://www.loewensaal.de
+Germany 	Fürth 	90762 	Gustavstr. 41 	Löwenbar 		http://www.zumgelbenloewen.de
+Germany 	Bamberg 	96049 	Obere Sandstr. 7 	Live-Club/Cafe´ Haas/Blues Bar 		http://www.live-club.de
+Germany 	Nürnberg 	90461 	Frankenstr. 200 	Kunstverein 		http://www.kunstverein-nuernberg.de
+Germany 	Lauterhofen 	92283 	Lauterachstr. 31 	Kulturstadel Lauterhofen 		http://www.myspace.com/kulturstadel
+Germany 	Zirndorf-Anwanden 		Wolfganghof 	Kulturpalast Anwanden e.V. 		http://www.kulturpalast-anwanden.de
+Germany 	Heilsbronn 	91560 	Bahnhofstr. 22 	Kulturverein Heilsbronn e.V. 		http://www.kulturverein-heilsbronn.de
+Germany 	Schwarzenbruck 	90592 		Kulturnetzwerk 		http://www.kulturnetzwerk-schwarzenbruck.de
+Germany 	Nürnberg 	90449 	Röthenbacher Hauptstrasse 74 	Kulturladen Röthenbach 		http://www.kubiss.de
+Germany 	Fürth 	90762 	Würzburger Str. 2-4 	Kulturforum Fürth 		http://www.kulturforum.fuerth.de
+Germany 	Roth 	91154 	Stieberstr. 7 	Kulturfabrik Roth 		http://www.kulturfabrik.de
+Germany 	Hilpoltstein 	91161 	Patersholzer Weg 	Kreuzwirtskeller 		http://www.kreuzwirtskeller.de
+Germany 	Fürth 		Langestrasse 81 	Kofferfabrik 		http://www.kofferfabrik.cc
+Germany 	Velburg 	92355 		Kneipenbühne Oberweiling 		http://www.kneipenbuehne.de
+Germany 	Postbauer-Heng 	92353 	Centrum 22 	K.i.S.H. 92353 Postbauer-Heng 		http://www.kish-live.de
+Germany 	Schwanstetten 	90596 	Wolfsgrubenstr. 7 	K.i.S. - Kultur in Schwanstetten 		http://www.kis.schwanstetten-online.de
+Germany 	Hersbruck 	91217 	Braugasse 14 	KiCK - Kleinkunst im City-Kino 		http://www.kultkick.de
+Germany 	Ansbach 	91522 	Maximilianstr. 27a 	Kammerspiele Ansbach 		http://www.kammerspiele.com
+Germany 	Langenzenn 	90579 	Hindenburgstr. 32 	Kulturhof Langenzenn 		http://www.kulturhof-langenzenn.de
+Germany 	Altdorf 	84302 	Moosstr. 30 	Jimmys Cafe 		http://www.jimmys-cafe.de
+Germany 	Wendelstein 	90530 		Jegelscheune Forststr. 2 		http://www.jegelscheune.de
+Germany 	Burgthann 	90559 	Burgstr. 1 	Jazz- und Kulturverein Burgthann e. V. 		http://www.jazzinderburg.com
+Germany 	Nürnberg 	90403 	Paniersplatz 27 + 29 	Jazz Studio 		http://www.jazzstudio.de
+Germany 	Bamberg 	96049 	Obere Sandstr. 18 	Jazz Club 		http://www.jcbamberg.de
+Germany 	Nürnberg 	90402 	Schlehengasse 31 	Irish Castle Pub 		http://www.irish-castle.com
+Germany 	Nürnberg 	90441 	Dianastr. 28 	Hubertussaal 		http://www.gostner.de
+Germany 	Nürnberg 	90441 	Vogelweiherstrasse 66 	Hirsch 		http://www.der-hirsch.de
+Germany 	München 	80634 	Rotkreuzplatz 2a 	Hide-Out Bluesclub 		http://www.hideout-muenchen.de
+Germany 	Eichstätt 	85072 	Am Graben 36 	Gutmannsaal Eichstätt 		http://www.brauerei-gutmann.de
+Germany 	Nürnberg 	90478 	Bayernstr. 150 	Gutmann am Dutzendteich 		http://www.gutmann-am-dutzendteich.de
+Germany 	Fürth 	90763 	Krautheimer Str. 11 	Grüne Halle 		http://www.gruenehalle.de
+Germany 	Schwabach 	91126 	Ringstr. 9 	Galerie Gaswerk 		http://www.galerie-gaswerk.de
+Germany 	Neumarkt 	92318 	Grünbaumwirtsgasse 14 	G6 Internetcafe 		http://www.g6.neumarkt.de
+Germany 	Schwabach 	91126 	Bachgasse 12 	Flanigans Irish Pub 		
+Germany 	Erlangen 	91054 	Fuchsenwiese 1 	E-Werk 		http://www.e-werk.de
+Germany 	Ingolstadt 	85049 	Jesuitenstr. 17 	Eiskeller 		http://www.mfpconcerts.com
+Germany 	Schupf 	91230 	Schupf 18 	Der Stern in Schupf 		http://www.der-stern.de
+Germany 	Erlangen 	91054 	Fahrstr. 12 	Der Schallplattenmann 		http://www.derschallplattenmann.de
+Germany 	Lauf 	91207 	Dehnberg 14 	Dehnberger Hoftheater 		http://www.dehnbergerhoftheater.de
+Germany 	Nürnberg 	90402 	Klaragasse 8 	Club Stereo Klaragasse 8 		http://www.club-stereo.net
+Germany 	Wendelstein 	90530 	Zum Sportheim 13 	Casa de la Trove 		http://www.latrova.de
+Germany 	Nürnberg 	90459 	Bulmann Str. 4 	Cafe Express 		http://www.cafe-express.de
+Germany 	Schwabach 	91127 	Limbacher Str. 57 	Cafe-Bar Jungeggers 		http://www.jungeggers.de
+Germany 	Nürnberg 		Gebersdorf Neumühle 2 	Bürgertreff 		http://www.gebersdorf.com
+Germany 	Nürnberg 	90402 	Königstorgraben 3 	Brown Sugar 		http://www.brownsugarrockcafe.de
+Germany 	Fürth 	90762 	Gustavstr. 41 	Blue Note 		http://www.szene-fuerth.de
+Germany 	Fürth 	90762 	Kapellenstr. 47 	BIKUL Lindenhain 		http://www.bikul.de
+Germany 	Pommelsbrunn 	91224 	Am Bahnhof 6 	Bermuda Liveclub 		http://www.myspace.com/clubbermuda
+Germany 	Fürth 	90762 	Gustavstr. 33 	Bar 		http://www.zumgelbenloewen.de/
+Germany 	Nürnberg 	90429 	Fürther Str.301-303 	Ballroom 		http://www.ballroom-nuernberg.de
+Germany 	Nürnberg 	90429 	Hochstr. 2 	Balazzo Brozzi 		http://www.balazzobrozzi.de
+Germany 	Fürth 	90762 	Nürnberger Str. 3 	Babylon Kino - Kellerbühne 		http://www.babylon-kino-fuerth.de
+Germany 	Nürnberg 	90402 	Bahnhofstr. 1-3 	Atelier Bar im Le Meridien Grand Hotel 		http://www.atelierbar.com
+Germany 	Nürnberg 	90459 	Landgrabenstr. 139 	Artischocken 		http://www.artischocken-nuernberg.de
+Germany 	Hamburg 	22769 	Max-Brauer-Allee 227 	Fatjazz @ Golem 	fatjazz - immer dienstags ab 20:30 	http://www.fatjazz.de
+Germany 		Hamburg 	Borselstrasse 16F 22765 	The Box 	Concept Store mit Veranstaltungen 	http://www.thebox-hamburg.com
+Germany 	Hamburg 	22769 	Stresemann Strasse 163 	Stage Club 	Swing, Jazz, Funk & Rock n Roll 	http://www.stageclub.de
+Germany 	Hamburg 	20146 	Allende Platz 1 	Ponybar 	Live Jazz jeden Mittwoch 	http://www.ponybar.com
+Germany 	Hamburg. 	20359 	Bernhard-Nocht-Str. 69a 	Nochtspeicher 	Konzerte, Lesungen, Tanzveranstaltungen 	http://www.nochtspeicher.de
+Germany 	Hamburg 	20146 	Oberstrasse 120 	NDR Rolf Liebermann Studio 	sieben Doppelkonzerte im Jahr, meist über Abonne... 	http://www.ndr.de/
+Germany 	Hamburg 	20354 	Dammtorbahnhof Dag-Hammarsköld-Platz 	Nancy Tilitz Gallery 	Kunstgalerie mit Jazzkonzerten jeden Freitag 	http://nancys-galerie-jazz.com/
+Germany 	Hamburg 	20259 	Fruchtallee 36 	Music Club Live 	Jazzsession & Konzerte der Jazz federation 	http://www.music-club-live.de
+Germany 	Hamburg 	20359 	Reeperbahn 1 	Mojo Club 	beinahe t�gliches Programm im Bereich Jazz/Funk &... 	http://www.mojo.de
+Germany 	Hamburg 	20357 	Margaretenstr. 33 	Margaretenkneipe / Kulturverein Schanzenviertel 	Jazz in der Grete regelm�i�ige Veranstaltungen 	http://www.margaretenkneipe.de
+Germany 	Hamburg 	20099 	Alexanderstrasse 16 	Kulturladen St.Georg 	Jazzmeile 1 x im Monat 	http://www.kulturladen.com
+Germany 	Hamburg 	22303 	Jarrestrasse 20 - 24   	Kampnagel 	regelm��ige Musikveranstaltungen, auch Jazz 	http://www.kampnagel.de
+Germany 	Hamburg 	20355 	Caffamacherreihe 37-39 	Jupi Bar (Komm in die G�nge) 	vielseitiges Veranstaltungsprogramm, auch mal Jaz... 	http://das-gaengeviertel.info/
+Country 	City 	Postcode 	Street 	Firma 	Comment 	url 	 
+Germany 	Hamburg 	21079 	Hannoverschestr. 85 	Jazzclub Stellwerk 	gelegentlich Jazz 	http://www.stellwerk-hamburg.de
+Germany 	Hamburg 	21029 	Weidenbaumsweg 13-15 	Jazzclub Bergedorf 	jeden Freitag Programm, im Sommer Frühschoppen s... 	http://www.jazzclub-bergedorf.de
+Germany 	Hamburg 	22767 	Grosse Elbstrasse 276 	Hafenbahnhof 	Jazzraum Konzerte immer montags 	http://www.jazzraum.de
+Germany 	Hamburg 	22767 	Grosse Elbstrasse 14 	Golem / Fatjazz 	jeden Dienstag fatjazz, plus eigene Konzerte 	http://golem.kr
+Germany 	Hamburg 	22359 	Kattjahren 1 	Flava Club 	gelegentlich trad. Jazz 	http://www.flava-club.de
+Germany 	Hamburg 	22765 	Barnerstrasse 36 	Fabrik 	t�gliches Programm ab auch mal Jazz 	http://www.fabrik.de
+Germany 	Hamburg 	20095 	Barkhof 3 	Elbphilharmonie Kulturcafe 	Jazz im Kulturcafe einmal pro Monat, Donnerstags,... 	http://www.elbphilharmonie.de
+Germany 	Hamburg 	20459 	City Sporthafen Vorsetzen 	Das Feuerschiff 	traditional Jazz, Blue Monday Session &gelegentlic... 	http://www.das-feuerschiff.de
+Germany 	Hamburg 	20459 	Alter Steinweg 10 	Cotton Club 	traditional Jazz & Blues, t�gliches Programm 	http://www.cotton-club-hamburg.de
+Germany 	Hamburg 	20146 	Schröderstiftstr.7 	Caf� Sternchance 	Jazz im Schanzenviertel jeden Sonntag um 19.00 Uhr... 	http://www.sternchance.de
+Germany 	Hamburg 	20249 	Eppendorfer Landstrasse 61 	Bar Italia 	Freitags und Samstags, 19-22 Uhr 	http://www.bar-italia.net
+Switzerland 	Egg 	8132 	Gewerbestrasse 9 	Egg/ZH 	Die monatliche Jamsession in Egg bietet BlueserInn... 	http://www.jamsessionegg.ch
+Antarctica 				sdffca 	ant 	http://www.LOCATION.co11m
+Austria 	Wien 	1150 	Gablenzgasse 1-3 	Mai-Kai 	test Comment 	http://www.mai-kai.at
+Switzerland 	Birmensdorf 	8008 	Züricherstrasse 23 	Serge H�nni 	Serge der beste Programmierer in Town. 	http://nyi.ch
+Switzerland 	Zürich 	8008 	Fröhlichstrasse 23 	Jazz Manouche 	Der �Hotclub de Zurich� als Jamsession findet seit... 	http://jazzmanouche.ch
+</p>
+</body>

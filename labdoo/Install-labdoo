@@ -1,0 +1,19 @@
+http://www.netcup-wiki.de/wiki/VSFTPD_Installation_und_Einrichtung
+
+http://de.wikihow.com/Einen-FTP-Server-in-Ubuntu-Linux-einrichten
+
+echo "labdoo" | sudo -S lshw >> /tmp/labdoo-ssd-$(date "+%b_%d_%Y_%m_%s") 
+
+
+cp /tmp/lab* /media/labdoo/Gold/labdoo
+
+ 	scp Quelldatei.bsp Benutzer@Host:Verzeichnis/Zieldatei.bsp
+
+pingu@pingu-HP-ENVY-TS-15-Notebook-PC:/tmp$ scp
+usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+
+
+sudo restart vsftpd
+
