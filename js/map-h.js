@@ -97,8 +97,8 @@ $('#map')
 
 					// Step 1: initialize communication with the platform
 					var platform = new H.service.Platform({
-						app_id : '0qM1dei4RH6PbceH963Y',
-						app_code : 'D2dCSy4yZ9cXzmeeWwWeHQ',
+						app_id : ' ',
+						app_code : ' ',
 						useHTTPS : true
 					});
 					var pixelRatio = window.devicePixelRatio || 1;
